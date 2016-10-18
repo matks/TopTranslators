@@ -1,0 +1,23 @@
+header {
+  .gradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba($brand-primary, .75), rgba(#25b9d7, .75));
+  }
+
+  height: rem(520px);
+  background: url(resources/header-background.png);
+  background-size: cover;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+
+  .white-text {
+    margin: {
+      top: rem(18px);
+      bottom: rem(18px);
+    }
+  }
+}
+
+.main-content:first-child {
+  margin-top: rem(-85px);
+}
