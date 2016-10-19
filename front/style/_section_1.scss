@@ -88,18 +88,25 @@ $color-traveler: #b29cd8;
 .simple-contributor {
   text-align: center;
   font-size: rem(13px);
-  margin-top: rem(20px);
+  margin-top: rem(38px);
 
   .avatar {
     margin-bottom: rem(7px);
   }
 
   .details {
+    .fixed-height {
+      height: rem(64px);
+    }
     .name {
-      display: inline-block;
-      height: rem(40px);
+      font-size: rem(15px);
+    }
+    .position {
+      font-size: rem(22px);
     }
   }
+
+
 }
 
 .top-contributor {

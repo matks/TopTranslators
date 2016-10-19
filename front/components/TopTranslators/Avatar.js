@@ -10,7 +10,7 @@ const Avatar = React.createClass({
 
     const username = data.username !== ''
       ? <span>(<a href="https://crowdin.com/profile/{data.username}">{data.username}</a>)</span>
-      : '';
+      : <span>(<a href="https://crowdin.com/profile/{data.name}">{data.name}</a>)</span>;
 
     const avatar = data.avatar
       ? <img src={data.avatar} />
@@ -43,8 +43,10 @@ const Avatar = React.createClass({
           {avatar}
         </div>
         <div className="details">
-          <div className="name">{data.name}</div>
-          <div className="username">{ username != '' ? username : '-' }</div>
+          <div className="fixed-height">
+            <div className="name">{data.name}</div>
+            <div className="username">{username}</div>
+          </div>
           <div className="info">{data.country} - {data.textCount} words</div>
           <div className="position">#{data.number}</div>
         </div>
