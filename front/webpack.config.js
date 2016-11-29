@@ -33,7 +33,7 @@ module.exports = {
       test: /\.css$/,
       loader: ExtractTextPlugin.extract('style', 'css?sourceMap!postcss!sass?sourceMap')
     }, {
-      test: /.(png|woff(2)?|eot|otf|ttf|svg)(\?[a-z0-9=\.]+)?$/,
+      test: /.(jpg|png|woff(2)?|eot|otf|ttf|svg)(\?[a-z0-9=\.]+)?$/,
       loader: 'file-loader?name=[hash].[ext]'
     }]
   },
