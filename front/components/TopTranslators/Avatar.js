@@ -9,8 +9,8 @@ const Avatar = React.createClass({
       : `0${data.number}`;
 
     const username = data.username !== ''
-      ? <span>(<a href="https://crowdin.com/profile/{data.username}">{data.username}</a>)</span>
-      : <span>(<a href="https://crowdin.com/profile/{data.name}">{data.name}</a>)</span>;
+      ? <span>(<a href={`https://crowdin.com/profile/${data.username}`}>{data.username}</a>)</span>
+      : <span>(<a href={`https://crowdin.com/profile/${data.name}`}>{data.name}</a>)</span>;
 
     const avatar = data.avatar
       ? <img src={data.avatar} />
