@@ -1,11 +1,15 @@
 import fs from 'fs';
 import csv from 'fast-csv';
+import moment from 'moment';
 
 const flags = {};
 const translators = [];
 const languages = [];
 
 const languageToFlag = {};
+
+const date = moment().format('MMMM DD, YYYY');
+console.log(`Current date: ${date}`);
 
 const streamTranslators = fs.createReadStream('../data/translators.csv');
 const streamLanguages = fs.createReadStream('../data/languages.csv');
@@ -22,7 +26,7 @@ streamTranslators.on('close', () => {
 streamLanguages.on('close', () => {
   fs.writeFileSync(
     '../data/statistics.json',
-    JSON.stringify({ translators, languages, flags }, null, 2),
+    JSON.stringify({ date, translators, languages, flags }, null, 2),
     'utf-8'
   );
 });

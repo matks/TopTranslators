@@ -6,7 +6,7 @@ import SeeMore from '../SeeMore';
 const TopTranslators = React.createClass({
   render() {
     return (
-      <div className="row main-content">
+      <div id="top-translators" className="row main-content">
         <TopTen />
         <SeeMore>
           <AllTranslators />

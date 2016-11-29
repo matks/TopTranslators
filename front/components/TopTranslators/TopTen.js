@@ -7,6 +7,8 @@ const TopTenComponent = React.createClass({
   render() {
     const translatorsList = this.props.translators;
 
+    const date = this.props.date;
+
     const leftColumn = [];
     const rightColumn = [];
     let allCounts = [];
@@ -30,6 +32,7 @@ const TopTenComponent = React.createClass({
       <div>
         <div className="col-md-10">
           <h2 className="text-md-center">Top translators:</h2>
+          <div className="text-md-center date">Last update: <strong>{date}</strong></div>
         </div>
         <div className="col-md-4">
           {leftColumn}
@@ -47,11 +50,13 @@ const TopTenComponent = React.createClass({
 
 TopTenComponent.propTypes = {
   translators: PropTypes.array.isRequired,
+  date: PropTypes.string.isRequired,
 }
 
 const mapStateToProps = (state) => {
   return {
     translators: state.data.translators,
+    date: state.data.date,
   }
 }
 

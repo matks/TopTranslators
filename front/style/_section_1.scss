@@ -50,6 +50,23 @@
   }
 }
 
+#top-translators {
+  h2 {
+    padding-bottom: 0;
+    margin-bottom: rem(4px);
+  }
+  .date {
+    margin-bottom: rem(23px);
+    color: #797979;
+    letter-spacing: rem(.2px);
+    font-size: rem(14px);
+
+    strong {
+      font-weight: 600;
+    }
+  }
+}
+
 $color-pionner: #df0067;
 $color-explorer: #280f44;
 $color-adventurer: #23b9d6;
