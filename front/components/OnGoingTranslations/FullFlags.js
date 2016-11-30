@@ -1,5 +1,5 @@
 import React from 'react';
-import settings from '../../../config/settings.json';
+import settings from '../../settings';
 
 const FullFlags = React.createClass({
   render() {

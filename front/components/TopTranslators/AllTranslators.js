@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Avatar from './Avatar';
 import TranslatorsStep from './TranslatorsStep'
-import configuration from '../../../config/settings';
+import configuration from '../../settings';
 import SeeMore from '../SeeMore';
 
 const AllTranslatorsComponent = React.createClass({
