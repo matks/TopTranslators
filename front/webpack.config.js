@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: [
@@ -9,7 +10,7 @@ module.exports = {
     './style/theme.scss'
   ],
   output: {
-    path: './public',
+    path: '../public',
     filename: 'bundle.js'
   },
   devtool: 'source-map',
@@ -39,6 +40,10 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('theme.css'),
+    new CopyWebpackPlugin([
+      { from: './index.html', to: '../public/index.html' },
+      { from: './img', to: '../public/img' },
+    ]),
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: false,
       compress: {

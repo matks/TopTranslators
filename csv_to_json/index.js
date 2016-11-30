@@ -25,7 +25,7 @@ streamTranslators.on('close', () => {
 
 streamLanguages.on('close', () => {
   fs.writeFileSync(
-    '../data/statistics.json',
+    '../public/statistics.json',
     JSON.stringify({ date, translators, languages, flags }, null, 2),
     'utf-8'
   );
