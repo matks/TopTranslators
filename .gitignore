@@ -1,5 +1,4 @@
 node_modules/
 front/public/
-public/
 .DS_Store
 npm-debug.log
