@@ -1,4 +1,5 @@
 import React from 'react';
+import { Twitter, Github, Link } from './Icons';
 
 const Avatar = React.createClass({
   render() {
@@ -16,6 +17,18 @@ const Avatar = React.createClass({
       ? <img src={data.avatar} />
       : <img src="img/default-avatar.png" />;
 
+    const websiteIcon = data.website
+      ? <a href={data.website}><Link /></a>
+      : '';
+
+    const githubIcon = data.github
+      ? <a href={`https://github.com/${data.github}`}><Github /></a>
+      : '';
+
+    const twitterIcon = data.twitter
+      ? <a href={`https://twitter.com/${data.twitter}`}><Twitter /></a>
+      : '';
+
     if (data.number <= 10) {
       return (
         <div className="contributor top-contributor">
@@ -26,7 +39,11 @@ const Avatar = React.createClass({
             <div className="position">#{number}</div>
             <div className="name">{data.name}</div>
             <div className="info">{username}<img className="flag" src={`img/flags/${data.country}.png`} />{data.country}</div>
-            <div className="links" />
+            <div className="links">
+              {websiteIcon}
+              {githubIcon}
+              {twitterIcon}
+            </div>
           </div>
           <div className="dots">
             <div className="dot" />
