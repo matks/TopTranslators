@@ -173,6 +173,16 @@ $color-traveler: #b29cd8;
     .info {
       font-size: rem(14px);
     }
+
+    .icon {
+      margin-left: rem(9px);
+
+      &.icon-link {
+        position: relative;
+        top: rem(3px);
+        left: rem(3px);
+      }
+    }
   }
 
   .dots {
@@ -209,6 +219,12 @@ $color-traveler: #b29cd8;
     }
     .dots {
       left: rem(-26px);
+    }
+    .icon {
+      margin: {
+        left: 0;
+        right: rem(9px);
+      }
     }
   }
 }

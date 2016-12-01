@@ -2,8 +2,8 @@ import fs from 'fs';
 import csv from 'fast-csv';
 import moment from 'moment';
 
+let translators = [];
 const flags = {};
-const translators = [];
 const languages = [];
 
 const languageToFlag = {};
@@ -12,6 +12,7 @@ const date = moment().format('MMMM DD, YYYY');
 console.log(`Current date: ${date}`);
 
 const streamTranslators = fs.createReadStream('../data/translators.csv');
+const streamUsers = fs.createReadStream('../data/users.csv');
 const streamLanguages = fs.createReadStream('../data/languages.csv');
 const streamFlags = fs.createReadStream('../data/flags.csv');
 
@@ -20,6 +21,10 @@ streamFlags.on('close', () => {
 });
 
 streamTranslators.on('close', () => {
+  streamUsers.pipe(usersStream);
+});
+
+streamUsers.on('close', () => {
   streamLanguages.pipe(languagesStream);
 });
 
@@ -74,7 +79,7 @@ const translatorsStream = csv.parse().on('data', (data) => {
       twitter: '',
       github: '',
       link: '',
-      avatar: data[5],
+      avatar: '',
     };
 
     let matches;
@@ -91,6 +96,35 @@ const translatorsStream = csv.parse().on('data', (data) => {
 
     translators.push(user);
   }
+});
+
+const usersStream = csv.parse().on('data', (data) => {
+  const userLinks = {
+    name: data[0],
+    username: '',
+    avatar: data[1],
+    website: data[2],
+    github: data[3],
+    twitter: data[4],
+  };
+
+  let matches;
+  if ((matches = /(.*)\s\((.*)\)/.exec(data[0])) !== null) {
+    userLinks.name = matches[1];
+    userLinks.username = matches[2];
+  }
+
+  let newTranslators = [];
+
+  translators.forEach((user) => {
+    if (user.name == userLinks.name && user.username == userLinks.username) {
+      user = Object.assign({}, user, userLinks);
+    }
+
+    newTranslators.push(user);
+  });
+
+  translators = newTranslators;
 });
 
 streamFlags.pipe(flagsStream);
