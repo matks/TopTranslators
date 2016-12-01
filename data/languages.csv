@@ -1,79 +1,83 @@
-Croatian,100,DONE,,
-Dutch,100,DONE,,
-Russian,100,DONE,,
-Swedish,100,DONE,,
-Italian,99,TOP 10,,
-Lithuanian,95,TOP 10,,
-Polish,92,TOP 10,,
-Persian,91,TOP 10,,
-German,90,TOP 10,,
-French,89,TOP 10,,Question : est-ce qu'on met le % traduit et validé ou seulement le % traduit (plus simple mais pas révélateur de ce qu'on a dans le logiciel)
-Ukrainian,85,TOP 10,,"Question 2 : On arrête à 20%, et on considère que les autres langues ne sont pas assez traduites ?"
-Spanish,84,TOP 10,,
-Turkish,84,TOP 10,,
-Indonesian,82,TOP 10,,
-"Portuguese, BR",82,,,
-Bulgarian,79,,,
-Slovak,79,,,
-Czech,78,,,
-English,78,,,
-Greek,78,,,
-Norwegian,78,,,
-Romanian,78,,,
-Slovenian,78,,,
-Vietnamese,78,,,
-Estonian,77,,,
-Portuguese,77,,,
-Hungarian,76,,,
-Danish,73,,,
-Catalan,72,,,
-"German, Switzerland",71,Ignorer (pas de pack),,
-Hebrew,70,,,
-Galician,67,,,
-Macedonian,64,,,
-"Spanish, Colombia",64,,,
-Chinese Traditional,63,,,
-Finnish,62,,,
-Serbian,59,,,
-Chinese Simplified,54,,,
-Bengali,43,,,
-Japanese,39,,,
-"Spanish, MX",39,,,
-Armenian,37,,,
-Arabic,36,,,
-Malay,28,,,
-Thai,23,,,
-Norwegian Nynorsk,22,,,
-Latvian,21,,,
-Albanian,18,,,
-"Spanish, Argentina",16,,,
-Lao,13,,,
-Basque,12,,,
-Georgian,11,,,
-Tatar,11,,,
-Uyghur,9,,,
-Azerbaijani,8,,,
-Korean,8,,,
-"French, Quebec",4,,,
-Tamil,4,,,
-Breton,3,,,
-"German, Luxembourg",3,,,
-Mongolian,3,,,
-"Spanish, Peru",3,,,
-Urdu (Pakistan),3,,,
-"English, UK",2,,,
-Khmer,2,,,
-Sinhala,2,,,
-Kurdish,1,,,
-Bosnian,0,,,
-"German, Austrian",0,,,
-Hindi,0,,,
-Icelandic,0,,,
-Irish,0,,,
-Kannada,0,,,
-Malayalam,0,,,
-Montenegrin,0,,,
-Oriya,0,,,
-"Spanish, Honduras",0,,,
-Swahili,0,,,
-Telugu,0,,,
+Bulgarian,100,DONE
+Croatian,100,DONE
+Danish,100,DONE
+Dutch,100,DONE
+English,100,DONE
+Estonian,100,DONE
+Finnish,100,DONE
+French,100,DONE
+Greek,100,DONE
+Hungarian,100,DONE
+Indonesian,100,DONE
+Italian,100,DONE
+Russian,100,DONE
+Slovak,100,DONE
+Slovenian,100,DONE
+Spanish,100,DONE
+Swedish,100,DONE
+Turkish,100,DONE
+Ukrainian,100,DONE
+Vietnamese,100,DONE
+Lithuanian,98,TOP 10
+Polish,98,TOP 10
+Portuguese,98,TOP 10
+German,97,TOP 10
+Czech,96,TOP 10
+Norwegian,96,TOP 10
+Persian,88,TOP 10
+"French, Canada",82,TOP 10
+Romanian,82,TOP 10
+"Portuguese, Brazilian",80,TOP 10
+Catalan,76,
+"German, Switzerland",69,
+Hebrew,69,
+Chinese Traditional,68,
+Galician,68,
+"Spanish, Colombia",66,
+Macedonian,63,
+Serbian,59,
+Chinese Simplified,53,
+Arabic,43,
+Bengali,40,
+"Spanish, Mexico",38,
+Japanese,37,
+Armenian,35,
+Malay,30,
+Latvian,26,
+Norwegian Nynorsk,25,
+Albanian,21,
+Thai,21,
+"Spanish, Argentina",16,
+Basque,12,
+Lao,12,
+Tatar,11,
+Azerbaijani,10,
+Georgian,10,
+Uyghur,9,
+Korean,8,
+Breton,4,
+Mongolian,4,
+"Spanish, Venezuela",4,
+Tamil,4,
+Sinhala,3,
+"Spanish, Peru",3,
+Urdu (Pakistan),3,
+"English, UK",2,
+"German, Luxembourg",2,
+Icelandic,2,
+Nepali,2,
+Khmer,1,
+Kurdish,1,
+Bosnian,0,
+"German, Austrian",0,
+Hindi,0,
+Irish,0,
+Kannada,0,
+Malagasy,0,
+Malayalam,0,
+Montenegrin,0,
+Oriya,0,
+"Spanish, Honduras",0,
+Swahili,0,
+"Swahili, Tanzania",0,
+Telugu,0,
