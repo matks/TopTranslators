@@ -20,7 +20,7 @@ const comparePercent = (a, b) => {
   return 0;
 }
 
-const data = (state = { translators: [], languages: [], flags: {} }, action) => {
+const data = (state = { date: '', translators: [], languages: [], flags: {} }, action) => {
   switch (action.type) {
     case RECEIVE_DATA:
 

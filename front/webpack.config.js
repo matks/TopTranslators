@@ -22,6 +22,7 @@ module.exports = {
       test: /\.js$/,
       loader: 'babel',
       query: {
+        plugins: ['transform-object-assign'],
         presets: ['es2015', 'react']
       }
     }, {
