@@ -1,5 +1,5 @@
 {
-  "date": "December 01, 2016",
+  "date": "December 02, 2016",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -22,26 +22,6 @@
       "link": "",
       "avatar": "https://www.gravatar.com/avatar/155283423312fb422acc72b8ef875c38?s=150\t",
       "website": ""
-    },
-    {
-      "name": "Kraus Media - Projects",
-      "username": "krausmedia",
-      "country": "DK",
-      "count": 30759,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": ""
-    },
-    {
-      "name": "katjav",
-      "username": "",
-      "country": "FI",
-      "count": 27915,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": ""
     },
     {
       "name": "A Petapouca",
@@ -176,16 +156,6 @@
       "website": ""
     },
     {
-      "name": "Dmitrie Highduke",
-      "username": "dnepropetrovsk",
-      "country": "UA",
-      "count": 7070,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": ""
-    },
-    {
       "name": "Jose Vicente Bustos Ferrer",
       "username": "jvbferrer",
       "country": "ES",
@@ -205,16 +175,6 @@
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/77547d91a6adf46ac42dbd6a9f959bda_l.jpg\t",
       "website": ""
-    },
-    {
-      "name": "penerjemah_ok",
-      "username": "",
-      "country": "ID",
-      "count": 5257,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": ""
     },
     {
       "name": "Danni Afasyah",
