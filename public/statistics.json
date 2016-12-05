@@ -1,5 +1,5 @@
 {
-  "date": "December 02, 2016",
+  "date": "December 05, 2016",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -16,7 +16,7 @@
       "name": "Alper Demir",
       "username": "alper-demir",
       "country": "TR",
-      "count": 42395,
+      "count": 42397,
       "twitter": "",
       "github": "",
       "link": "",
@@ -137,7 +137,7 @@
       "name": "eleazar",
       "username": "",
       "country": "DE",
-      "count": 9760,
+      "count": 10087,
       "twitter": "",
       "github": "",
       "link": "",
@@ -177,6 +177,17 @@
       "website": ""
     },
     {
+      "name": "Cha",
+      "username": "cafetango",
+      "country": "TW",
+      "count": 5305,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
       "name": "Danni Afasyah",
       "username": "prestanesia",
       "country": "ID",
@@ -185,17 +196,6 @@
       "github": "",
       "link": "",
       "avatar": "https://www.gravatar.com/avatar/b3c19207aa2aa1d11ffbeacb8b626572?s=150\t",
-      "website": ""
-    },
-    {
-      "name": "Cha",
-      "username": "cafetango",
-      "country": "TW",
-      "count": 5027,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
       "website": ""
     },
     {
@@ -279,7 +279,7 @@
       "name": "farior",
       "username": "",
       "country": "BG",
-      "count": 2101,
+      "count": 2113,
       "twitter": "",
       "github": "",
       "link": "",
@@ -345,7 +345,7 @@
       "name": "M. Mirena",
       "username": "mmirena",
       "country": "AL",
-      "count": 1524,
+      "count": 1535,
       "twitter": "",
       "github": "",
       "link": "",
@@ -440,6 +440,17 @@
       "website": ""
     },
     {
+      "name": "Daniel Valente",
+      "username": "dgv",
+      "country": "BR",
+      "count": 1183,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/c729571b1e223ac32cd99abd737c873e_l.jpg\t",
+      "website": ""
+    },
+    {
       "name": "Ezz El Dean Hashish",
       "username": "franko43rb",
       "country": "AE",
@@ -484,6 +495,16 @@
       "website": ""
     },
     {
+      "name": "Saeed Sattar Beglou",
+      "username": "saeedsb",
+      "country": "IR",
+      "count": 1010,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": ""
+    },
+    {
       "name": "Adam Janík",
       "username": "jmenujuseadam",
       "country": "CZ",
@@ -494,10 +515,10 @@
       "avatar": ""
     },
     {
-      "name": "nasimparsi",
+      "name": "cloud_web",
       "username": "",
-      "country": "IR",
-      "count": 852,
+      "country": "GE",
+      "count": 887,
       "twitter": "",
       "github": "",
       "link": "",
@@ -505,21 +526,10 @@
       "website": ""
     },
     {
-      "name": "Daniel Valente",
-      "username": "dgv",
-      "country": "BR",
-      "count": 827,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/c729571b1e223ac32cd99abd737c873e_l.jpg\t",
-      "website": ""
-    },
-    {
-      "name": "cloud_web",
+      "name": "nasimparsi",
       "username": "",
-      "country": "GE",
-      "count": 801,
+      "country": "IR",
+      "count": 852,
       "twitter": "",
       "github": "",
       "link": "",
@@ -672,7 +682,7 @@
       "name": "dzuman",
       "username": "",
       "country": "VN",
-      "count": 522,
+      "count": 529,
       "twitter": "",
       "github": "",
       "link": "",
@@ -816,7 +826,7 @@
     },
     {
       "country": "IR",
-      "percent": 88
+      "percent": 90
     },
     {
       "country": "CA",
@@ -835,16 +845,16 @@
       "percent": 76
     },
     {
+      "country": "TW",
+      "percent": 69
+    },
+    {
       "country": "CH",
       "percent": 69
     },
     {
       "country": "IL",
       "percent": 69
-    },
-    {
-      "country": "TW",
-      "percent": 68
     },
     {
       "country": "GL",
@@ -860,7 +870,7 @@
     },
     {
       "country": "CN",
-      "percent": 53
+      "percent": 54
     },
     {
       "country": "AE",
@@ -936,6 +946,10 @@
     },
     {
       "country": "BRE",
+      "percent": 4
+    },
+    {
+      "country": "QC",
       "percent": 4
     },
     {
