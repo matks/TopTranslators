@@ -2,71 +2,94 @@ import fs from 'fs';
 import csv from 'fast-csv';
 import moment from 'moment';
 
-let translators = [];
-const flags = {};
+const flags = [];
+const translatorsLinks = [];
+const translators = [];
 const languages = [];
-
-const languageToFlag = {};
 
 const date = moment().format('MMMM DD, YYYY');
 console.log(`Current date: ${date}`);
 
 const streamTranslators = fs.createReadStream('../data/translators.csv');
-const streamUsers = fs.createReadStream('../data/users.csv');
+const streamTranslatorsLinks = fs.createReadStream('../data/users.csv');
 const streamLanguages = fs.createReadStream('../data/languages.csv');
 const streamFlags = fs.createReadStream('../data/flags.csv');
 
 streamFlags.on('close', () => {
-  streamTranslators.pipe(translatorsStream)
+  console.log('Parsing users.csv ...');
+  streamTranslatorsLinks.pipe(translatorsLinksStream)
+});
+
+streamTranslatorsLinks.on('close', () => {
+  console.log('Parsing translators.csv ...');
+  streamTranslators.pipe(translatorsStream);
 });
 
 streamTranslators.on('close', () => {
-  streamUsers.pipe(usersStream);
-});
-
-streamUsers.on('close', () => {
+  console.log('Parsing languages.csv ...');
   streamLanguages.pipe(languagesStream);
 });
 
 streamLanguages.on('close', () => {
+  console.log('Writing ...');
   fs.writeFileSync(
     '../public/statistics.json',
-    JSON.stringify({ date, translators, languages, flags }, null, 2),
+    JSON.stringify({ date, translators, languages }, null, 2),
     'utf-8'
   );
+  console.log('DONE!');
 });
 
 const flagsStream = csv.parse().on('data', (data) => {
-  if (data[0] === 'Flag' || data[1] === '') {
+  if (data[1] === 'Flag' || data[1] === '') {
     return;
   }
 
-  flags[data[0]] = data[2] !== ''
+  let displayName = data[2] !== ''
     ? data[2]
     : data[1];
 
-  languageToFlag[data[0]] = data[1];
+  if (displayName !== '') {
+    flags.push({
+      name: data[1],
+      displayName,
+      code: data[0],
+    });
+  }
 });
 
 const languagesStream = csv.parse().on('data', (data) => {
   if (parseInt(data[1]) > 0) {
     const language = {
-      country: '',
+      country: data[0],
+      flag: '',
       percent: 0,
     };
 
-    for (let key in languageToFlag) {
-      if (languageToFlag[key] == data[0]) {
-        language.country = key;
-      }
+    let flag = getFlag(data[0]);
+    if (typeof flag === 'undefined') {
+      console.log(`Cannot found flag ${data[0]}`);
+      return;
     }
 
     language.percent = parseInt(data[1]);
+    language.country = flag.displayName;
+    language.flag = flag.code;
 
     if (language.country != '') {
       languages.push(language);
     }
   }
+});
+
+const translatorsLinksStream = csv.parse().on('data', (data) => {
+  translatorsLinks.push({
+    name: data[0],
+    avatar: data[1],
+    website: data[2],
+    github: data[3],
+    twitter: data[4],
+  });
 });
 
 const translatorsStream = csv.parse().on('data', (data) => {
@@ -75,6 +98,7 @@ const translatorsStream = csv.parse().on('data', (data) => {
       name: data[0],
       username: '',
       country: '',
+      flag: '',
       count: parseInt(data[2]),
       twitter: '',
       github: '',
@@ -88,43 +112,37 @@ const translatorsStream = csv.parse().on('data', (data) => {
       user.username = matches[2];
     }
 
-    for (let key in languageToFlag) {
-      if (languageToFlag[key] == data[1]) {
-        user.country = key;
+    translatorsLinks.forEach((translator) => {
+      if (translator.name === data[0]) {
+        user.avatar = translator.avatar;
+        user.website = translator.website;
+        user.github = translator.github;
+        user.twitter = translator.twitter;
       }
+    });
+
+    let flag = getFlag(data[1]);
+    if (typeof flag === 'undefined') {
+      console.log(`Cannot found flag ${data[1]}`);
+      return;
     }
+
+    user.country = flag.displayName;
+    user.flag = flag.code;
 
     translators.push(user);
   }
 });
 
-const usersStream = csv.parse().on('data', (data) => {
-  const userLinks = {
-    name: data[0],
-    username: '',
-    avatar: data[1],
-    website: data[2],
-    github: data[3],
-    twitter: data[4],
-  };
-
-  let matches;
-  if ((matches = /(.*)\s\((.*)\)/.exec(data[0])) !== null) {
-    userLinks.name = matches[1];
-    userLinks.username = matches[2];
-  }
-
-  let newTranslators = [];
-
-  translators.forEach((user) => {
-    if (user.name == userLinks.name && user.username == userLinks.username) {
-      user = Object.assign({}, user, userLinks);
+const getFlag = function(name) {
+  let flagFounded = undefined;
+  flags.forEach((flag) => {
+    if (flag.name === name) {
+      flagFounded = flag;
     }
-
-    newTranslators.push(user);
   });
+  return flagFounded;
+};
 
-  translators = newTranslators;
-});
-
+console.log('Parsing flags.csv ...');
 streamFlags.pipe(flagsStream);
