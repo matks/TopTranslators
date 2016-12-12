@@ -4,7 +4,6 @@ import settings from '../../settings';
 const OtherFlags = React.createClass({
   render() {
     const data = this.props.data;
-    const flags = this.props.flags;
 
     const flagsToDisplay = [];
     data.forEach((language, index) => {
@@ -14,8 +13,8 @@ const OtherFlags = React.createClass({
 
       flagsToDisplay.push(
         <div key={index} className={ `text-md-center col-md-2 small-flag ${addClass}` }>
-          <img src={ `img/flags/${language.country}.png` } className="flag" />
-          <div className="name">{ flags[language.country] }</div>
+          <img src={ `img/flags/${language.flag}.png` } className="flag" />
+          <div className="name">{language.country}</div>
           <div className="percent">{language.percent}%</div>
         </div>
       )

@@ -38,7 +38,7 @@ const Avatar = React.createClass({
           <div className="details">
             <div className="position">#{number}</div>
             <div className="name">{data.name}</div>
-            <div className="info">{username}<img className="flag" src={`img/flags/${data.country}.png`} />{data.country}</div>
+            <div className="info">{username}<img className="flag" src={`img/flags/${data.flag}.png`} />{data.flag}</div>
             <div className="links">
               {websiteIcon}
               {githubIcon}
@@ -64,7 +64,7 @@ const Avatar = React.createClass({
             <div className="name">{data.name}</div>
             <div className="username">{username}</div>
           </div>
-          <div className="info">{data.country} - {data.textCount} words</div>
+          <div className="info">{data.flag} - {data.textCount} words</div>
           <div className="position">#{data.number}</div>
         </div>
       </div>

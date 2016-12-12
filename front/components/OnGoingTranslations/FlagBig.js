@@ -4,7 +4,6 @@ import settings from '../../settings';
 const FlagBig = React.createClass({
   render() {
     const data = this.props.data;
-    const flags = this.props.flags;
 
     const number = data.number > 9
       ? data.number
@@ -14,8 +13,8 @@ const FlagBig = React.createClass({
       <div className="col-md-5 translation-progress">
         <div className="position">#{number}</div>
         <div className="flag-line">
-          <img src={ `img/flags/${data.country}.png` } className="flag" />
-          <span className="name">{ flags[data.country] }</span>
+          <img src={ `img/flags/${data.flag}.png` } className="flag" />
+          <span className="name">{data.country}</span>
           <span className="percent">{data.percent}%</span>
         </div>
         <div className="progress">

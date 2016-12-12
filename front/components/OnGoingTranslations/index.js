@@ -33,21 +33,21 @@ const OnGoingTranslationsComponent = React.createClass({
         </div>
         <div className="col-md-8 push-md-1">
           <div className="row">
-            <TenBig languages={top1to10} flags={this.props.flags} />
+            <TenBig languages={top1to10} />
           </div>
         </div>
         <SeeMore>
           <div className="row">
             <div className="col-md-8 push-md-1">
-              <TenBig languages={top11to20} flags={this.props.flags} />
+              <TenBig languages={top11to20} />
             </div>
           </div>
-          <OtherFlags data={others} flags={this.props.flags} />
+          <OtherFlags data={others} />
         </SeeMore>
         <div className="col-md-10">
           <h2 className="text-md-center small-margin">Fully translated languages:</h2>
         </div>
-        <FullFlags data={finished} flags={this.props.flags} />
+        <FullFlags data={finished} />
       </div>
     )
   }
@@ -55,13 +55,11 @@ const OnGoingTranslationsComponent = React.createClass({
 
 OnGoingTranslationsComponent.propTypes = {
   languages: PropTypes.array.isRequired,
-  flags: PropTypes.object.isRequired,
 }
 
 const mapStateToProps = (state) => {
   return {
     languages: state.data.languages,
-    flags: state.data.flags,
   }
 }
 
