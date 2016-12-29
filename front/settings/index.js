@@ -12,7 +12,7 @@ export default {
     class: "adventurer",
     from: 5000
   }, {
-    title: "Backpacker (>8.5K)",
+    title: "Backpacker (>2.5K)",
     class: "backpacker",
     from: 2500
   }, {
