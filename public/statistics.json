@@ -1,5 +1,5 @@
 {
-  "date": "January 16, 2017",
+  "date": "January 17, 2017",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -10,7 +10,7 @@
       "twitter": "",
       "github": "geedamed",
       "link": "",
-      "avatar": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/c2c2bd8cf5b3a0442d6c6d285ffc8b35_l.jpg",
       "website": "http://www.tenita.eu/"
     },
     {
@@ -82,7 +82,7 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/d385d7141283e67dd1aa120c7e68966e_l.jpg",
       "website": ""
     },
     {
@@ -118,7 +118,8 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": ""
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/0be327fc4fade519a8fe37cbc0cc4204_l.jpeg",
+      "website": ""
     },
     {
       "name": "Patrik Lindblom",
@@ -260,7 +261,8 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": ""
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/cad63a0b2dd9ccdc68c441e0f70e79cd_l.png",
+      "website": ""
     },
     {
       "name": "transmetent",
@@ -307,7 +309,8 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": ""
+      "avatar": "https://www.gravatar.com/avatar/82b29fcbad17356a05f071ceade3872a?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
+      "website": ""
     },
     {
       "name": "maurizioag",
@@ -402,7 +405,8 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": ""
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/437c117e027ac68de26cd4b2b5a45de3_l.jpg",
+      "website": ""
     },
     {
       "name": "AmirRzd",
@@ -663,7 +667,8 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": ""
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/532232d840d8b8917b6f645c1e6aee9e_l.jpg",
+      "website": ""
     },
     {
       "name": "cloud_web",
@@ -686,7 +691,8 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": ""
+      "avatar": "",
+      "website": ""
     },
     {
       "name": "nasimparsi",
@@ -733,7 +739,8 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": ""
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/1e3100c0345343846af352e6e4ee3699_l.jpeg",
+      "website": ""
     },
     {
       "name": "Huseyn Ismayilov",
@@ -756,7 +763,8 @@
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": ""
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/d030c00f65e345c97144d56dfcfd580b_l.jpg",
+      "website": ""
     },
     {
       "name": "Bojanstven",
