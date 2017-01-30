@@ -1,5 +1,5 @@
 {
-  "date": "January 23, 2017",
+  "date": "January 30, 2017",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -54,7 +54,7 @@
       "username": "",
       "country": "Russian",
       "flag": "RU",
-      "count": 13740,
+      "count": 13755,
       "twitter": "",
       "github": "DaoKakao",
       "link": "",
@@ -493,17 +493,6 @@
       "website": ""
     },
     {
-      "name": "Thang Luu",
-      "username": "luuthang",
-      "country": "Vietnamese",
-      "flag": "VN",
-      "count": 1515,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": ""
-    },
-    {
       "name": "Marme",
       "username": "",
       "country": "Portuguese",
@@ -525,6 +514,18 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/c02b5d76846543b2cf01a1128c1e73b9_l.jpg\t",
+      "website": ""
+    },
+    {
+      "name": "eleazar",
+      "username": "",
+      "country": "English",
+      "flag": "US",
+      "count": 1386,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/3b0cb93e1841723e05b7d553dc2748f9?s=150\t",
       "website": ""
     },
     {
@@ -585,18 +586,6 @@
       "github": "",
       "link": "",
       "avatar": "https://www.gravatar.com/avatar/08ff2827ec083b559f7e42cfd83f6b03?s=150\t",
-      "website": ""
-    },
-    {
-      "name": "dzuman",
-      "username": "",
-      "country": "Vietnamese",
-      "flag": "VN",
-      "count": 1229,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/8866837fe0d06b662558ca7520673262?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
       "website": ""
     },
     {
@@ -707,6 +696,30 @@
       "website": ""
     },
     {
+      "name": "Gabriel Manea",
+      "username": "wwwimagineataRO",
+      "country": "Romanian",
+      "flag": "RO",
+      "count": 817,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
+      "name": "MauricioMontoya",
+      "username": "",
+      "country": "Spanish, SV",
+      "flag": "SV",
+      "count": 757,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
       "name": "Alcoche",
       "username": "",
       "country": "Spanish",
@@ -728,6 +741,18 @@
       "github": "",
       "link": "",
       "avatar": "",
+      "website": ""
+    },
+    {
+      "name": "webdvl",
+      "username": "megashopba",
+      "country": "Slovak",
+      "flag": "SK",
+      "count": 740,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/7a6e198ac1a593ed2568d0c028fabebd_l.png",
       "website": ""
     },
     {
@@ -886,18 +911,6 @@
       "website": ""
     },
     {
-      "name": "Gabriel Manea",
-      "username": "wwwimagineataRO",
-      "country": "Romanian",
-      "flag": "RO",
-      "count": 529,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
-      "website": ""
-    },
-    {
       "name": "crowd-dyr",
       "username": "",
       "country": "Danish",
@@ -936,11 +949,6 @@
     {
       "country": "Croatian",
       "flag": "HR",
-      "percent": 100
-    },
-    {
-      "country": "Czech",
-      "flag": "CZ",
       "percent": 100
     },
     {
@@ -1049,6 +1057,11 @@
       "percent": 100
     },
     {
+      "country": "Czech",
+      "flag": "CZ",
+      "percent": 99
+    },
+    {
       "country": "Polish",
       "flag": "PL",
       "percent": 99
@@ -1061,7 +1074,7 @@
     {
       "country": "Norwegian",
       "flag": "NO",
-      "percent": 97
+      "percent": 98
     },
     {
       "country": "Persian",
@@ -1071,7 +1084,7 @@
     {
       "country": "Romanian",
       "flag": "RO",
-      "percent": 87
+      "percent": 88
     },
     {
       "country": "French, CA",
@@ -1271,6 +1284,11 @@
     {
       "country": "Kurdish",
       "flag": "KU",
+      "percent": 1
+    },
+    {
+      "country": "Spanish, SV",
+      "flag": "SV",
       "percent": 1
     }
   ]
