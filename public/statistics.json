@@ -1,5 +1,5 @@
 {
-  "date": "January 30, 2017",
+  "date": "February 07, 2017",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -517,18 +517,6 @@
       "website": ""
     },
     {
-      "name": "eleazar",
-      "username": "",
-      "country": "English",
-      "flag": "US",
-      "count": 1386,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/3b0cb93e1841723e05b7d553dc2748f9?s=150\t",
-      "website": ""
-    },
-    {
       "name": "Mads Oliver Jenssen",
       "username": "madsoliver",
       "country": "Norwegian",
@@ -601,6 +589,30 @@
       "website": ""
     },
     {
+      "name": "Tor Eirik Trandal",
+      "username": "teitrand",
+      "country": "Norwegian",
+      "flag": "NO",
+      "count": 1161,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
+      "name": "lyoNick",
+      "username": "",
+      "country": "Hebrew",
+      "flag": "IL",
+      "count": 1096,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
       "name": "PifyZ",
       "username": "",
       "country": "French",
@@ -610,18 +622,6 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/ad926e21a6b8f78d7745f1aa4bb7c4c6_l.jpg\t",
-      "website": ""
-    },
-    {
-      "name": "lyoNick",
-      "username": "",
-      "country": "Hebrew",
-      "flag": "IL",
-      "count": 1056,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
       "website": ""
     },
     {
@@ -741,18 +741,6 @@
       "github": "",
       "link": "",
       "avatar": "",
-      "website": ""
-    },
-    {
-      "name": "webdvl",
-      "username": "megashopba",
-      "country": "Slovak",
-      "flag": "SK",
-      "count": 740,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/7a6e198ac1a593ed2568d0c028fabebd_l.png",
       "website": ""
     },
     {
@@ -952,6 +940,11 @@
       "percent": 100
     },
     {
+      "country": "Czech",
+      "flag": "CZ",
+      "percent": 100
+    },
+    {
       "country": "Danish",
       "flag": "DK",
       "percent": 100
@@ -1007,6 +1000,11 @@
       "percent": 100
     },
     {
+      "country": "Norwegian",
+      "flag": "NO",
+      "percent": 100
+    },
+    {
       "country": "Portuguese, BR",
       "flag": "BR",
       "percent": 100
@@ -1057,11 +1055,6 @@
       "percent": 100
     },
     {
-      "country": "Czech",
-      "flag": "CZ",
-      "percent": 99
-    },
-    {
       "country": "Polish",
       "flag": "PL",
       "percent": 99
@@ -1069,11 +1062,6 @@
     {
       "country": "Lithuanian",
       "flag": "LT",
-      "percent": 98
-    },
-    {
-      "country": "Norwegian",
-      "flag": "NO",
       "percent": 98
     },
     {
