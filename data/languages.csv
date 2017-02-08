@@ -1,6 +1,7 @@
 Bulgarian,100,DONE
 Catalan,100,DONE
 Croatian,100,DONE
+Czech,100,DONE
 Danish,100,DONE
 Dutch,100,DONE
 English,100,DONE
@@ -12,6 +13,7 @@ Greek,100,DONE
 Hungarian,100,DONE
 Indonesian,100,DONE
 Italian,100,DONE
+Norwegian,100,DONE
 "Portuguese, Brazilian",100,DONE
 Portuguese,100,DONE
 Russian,100,DONE
@@ -22,18 +24,16 @@ Swedish,100,DONE
 Turkish,100,DONE
 Ukrainian,100,DONE
 Vietnamese,100,DONE
-Czech,99,TOP 10
 Polish,99,TOP 10
 Lithuanian,98,TOP 10
-Norwegian,98,TOP 10
 Persian,94,TOP 10
 Romanian,88,TOP 10
 "French, Canada",82,TOP 10
 Chinese Traditional,71,TOP 10
 Hebrew,71,TOP 10
 Galician,70,TOP 10
-"German, Switzerland",69,
-"Spanish, Colombia",68,
+"German, Switzerland",69,TOP 10
+"Spanish, Colombia",68,TOP 10
 Macedonian,63,
 Serbian,59,
 Chinese Simplified,55,
