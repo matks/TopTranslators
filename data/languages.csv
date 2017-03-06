@@ -1,78 +1,76 @@
-Bulgarian,100,DONE
-Catalan,100,DONE
-Croatian,100,DONE
-Czech,100,DONE
-Danish,100,DONE
-Dutch,100,DONE
-Estonian,100,DONE
-Finnish,100,DONE
-French,100,DONE
-German,100,DONE
-Greek,100,DONE
-Hungarian,100,DONE
-Indonesian,100,DONE
-Italian,100,DONE
-Norwegian,100,DONE
-"Portuguese, Brazilian",100,DONE
-Portuguese,100,DONE
+English,100,DONE
+"French, Canada",100,DONE
 Russian,100,DONE
 Slovak,100,DONE
 Slovenian,100,DONE
-Spanish,100,DONE
-Swedish,100,DONE
-Turkish,100,DONE
-Ukrainian,100,DONE
-Vietnamese,100,DONE
-English,100,DONE
-Polish,99,TOP 10
-Lithuanian,98,TOP 10
-Persian,94,TOP 10
-Romanian,88,TOP 10
-"French, Canada",82,TOP 10
-Chinese Traditional,73,TOP 10
-Galician,71,TOP 10
-Hebrew,71,TOP 10
-"German, Switzerland",69,TOP 10
-"Spanish, Colombia",68,TOP 10
-Macedonian,63,
-Serbian,59,
-Chinese Simplified,55,
-Japanese,52,
-"Spanish, Mexico",50,
-Arabic,44,
-Bengali,40,
-Armenian,35,
-Malay,30,
+French,99,TOP 10
+Italian,99,TOP 10
+Croatian,97,TOP 10
+Bulgarian,96,TOP 10
+German,96,TOP 10
+Polish,96,TOP 10
+"Portuguese, Brazilian",96,TOP 10
+Spanish,96,TOP 10
+Swedish,96,TOP 10
+Dutch,95,TOP 10
+Greek,95,
+Indonesian,95,
+Portuguese,95,
+Catalan,94,
+Czech,94,
+Estonian,94,
+Finnish,94,
+Hungarian,94,
+Norwegian,94,
+Turkish,94,
+Ukrainian,94,
+Vietnamese,94,
+Lithuanian,93,
+Danish,90,
+Persian,90,
+Romanian,85,
+Chinese Traditional,72,
+Hebrew,72,
+"German, Switzerland",69,
+Galician,67,
+"Spanish, Colombia",64,
+Macedonian,57,
+Serbian,54,
+Japanese,53,
+Chinese Simplified,52,
+Arabic,42,
+"Spanish, Mexico",42,
+Bengali,38,
+Armenian,32,
+Malay,29,
 Latvian,26,
-Norwegian Nynorsk,25,
+Norwegian Nynorsk,23,
 Albanian,21,
-Thai,21,
-"Spanish, Argentina",16,
-Korean,15,
-Georgian,13,
-Basque,12,
-Lao,12,
-Tatar,11,
+Thai,20,
+"Spanish, Argentina",14,
+Basque,13,
+Korean,12,
+Tatar,12,
+Lao,11,
 Azerbaijani,10,
-Uyghur,9,
-Breton,4,
-"French, Quebec",4,
-Mongolian,4,
-"Spanish, Venezuela",4,
-Tamil,4,
-Sinhala,3,
+Georgian,10,
+Uyghur,8,
+"German, Luxembourg",4,
+Breton,3,
+Mongolian,3,
 "Spanish, Peru",3,
-Urdu (Pakistan),3,
+"Spanish, Venezuela",3,
+Tamil,3,
 "English, United Kingdom",2,
-"German, Luxembourg",2,
-Hindi,2,
-Icelandic,2,
-Khmer,2,
-Nepali,2,
+Sinhala,2,
+Urdu (Pakistan),2,
+Icelandic,1,
+Khmer,1,
 Kurdish,1,
-"Spanish, El Salvador",1,
+Nepali,1,
 Bosnian,0,
 "German, Austrian",0,
+Hindi,0,
 Irish,0,
 Kannada,0,
 Malagasy,0,
@@ -80,6 +78,8 @@ Malayalam,0,
 Montenegrin,0,
 Oriya,0,
 "Spanish, Honduras",0,
+"Spanish, El Salvador",0,
 Swahili,0,
 "Swahili, Tanzania",0,
+Telugu,0,
 Telugu,0,
