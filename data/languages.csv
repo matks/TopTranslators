@@ -1,43 +1,43 @@
+Croatian,100,DONE
+Danish,100,DONE
 English,100,DONE
+French,100,DONE
 "French, Canada",100,DONE
+German,100,DONE
+Italian,100,DONE
+Portuguese,100,DONE
 Russian,100,DONE
 Slovak,100,DONE
 Slovenian,100,DONE
-French,99,TOP 10
-Italian,99,TOP 10
-Croatian,97,TOP 10
+Swedish,100,DONE
+Turkish,100,DONE
+Spanish,99,TOP 10
+Greek,98,TOP 10
+Norwegian,98,TOP 10
+Polish,97,TOP 10
 Bulgarian,96,TOP 10
-German,96,TOP 10
-Polish,96,TOP 10
+Dutch,96,TOP 10
+Indonesian,96,TOP 10
 "Portuguese, Brazilian",96,TOP 10
-Spanish,96,TOP 10
-Swedish,96,TOP 10
-Dutch,95,TOP 10
-Greek,95,
-Indonesian,95,
-Portuguese,95,
+Ukrainian,96,TOP 10
+Czech,95,TOP 10
 Catalan,94,
-Czech,94,
 Estonian,94,
 Finnish,94,
 Hungarian,94,
-Norwegian,94,
-Turkish,94,
-Ukrainian,94,
 Vietnamese,94,
 Lithuanian,93,
-Danish,90,
-Persian,90,
-Romanian,85,
+Persian,92,
+Romanian,88,
 Chinese Traditional,72,
 Hebrew,72,
-"German, Switzerland",69,
+"German, Switzerland",70,
 Galician,67,
+Japanese,64,
 "Spanish, Colombia",64,
 Macedonian,57,
 Serbian,54,
-Japanese,53,
-Chinese Simplified,52,
+Chinese Simplified,53,
 Arabic,42,
 "Spanish, Mexico",42,
 Bengali,38,
@@ -82,4 +82,4 @@ Oriya,0,
 Swahili,0,
 "Swahili, Tanzania",0,
 Telugu,0,
-Telugu,0,
+"French, Quebec",,
