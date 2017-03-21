@@ -5,7 +5,11 @@ French,100,DONE
 "French, Canada",100,DONE
 German,100,DONE
 Italian,100,DONE
+Lithuanian,100,DONE
+Norwegian,100,DONE
+"Portuguese, Brazilian",100,DONE
 Portuguese,100,DONE
+Romanian,100,DONE
 Russian,100,DONE
 Slovak,100,DONE
 Slovenian,100,DONE
@@ -13,27 +17,23 @@ Swedish,100,DONE
 Turkish,100,DONE
 Spanish,99,TOP 10
 Greek,98,TOP 10
-Norwegian,98,TOP 10
-Polish,97,TOP 10
+Polish,98,TOP 10
 Bulgarian,96,TOP 10
 Dutch,96,TOP 10
+Hungarian,96,TOP 10
 Indonesian,96,TOP 10
-"Portuguese, Brazilian",96,TOP 10
 Ukrainian,96,TOP 10
 Czech,95,TOP 10
-Catalan,94,
+Catalan,94,TOP 10
 Estonian,94,
 Finnish,94,
-Hungarian,94,
 Vietnamese,94,
-Lithuanian,93,
 Persian,92,
-Romanian,88,
-Chinese Traditional,72,
+Chinese Traditional,73,
 Hebrew,72,
 "German, Switzerland",70,
+Japanese,70,
 Galician,67,
-Japanese,64,
 "Spanish, Colombia",64,
 Macedonian,57,
 Serbian,54,
@@ -43,7 +43,7 @@ Arabic,42,
 Bengali,38,
 Armenian,32,
 Malay,29,
-Latvian,26,
+Latvian,27,
 Norwegian Nynorsk,23,
 Albanian,21,
 Thai,20,
