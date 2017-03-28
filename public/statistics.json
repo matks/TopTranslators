@@ -1,5 +1,5 @@
 {
-  "date": "March 21, 2017",
+  "date": "March 28, 2017",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -14,6 +14,18 @@
       "website": "http://www.tenita.eu/"
     },
     {
+      "name": "Alper Demir",
+      "username": "alper-demir",
+      "country": "Turkish",
+      "flag": "TR",
+      "count": 46310,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/155283423312fb422acc72b8ef875c38?s=150\t",
+      "website": ""
+    },
+    {
       "name": "dzuman",
       "username": "",
       "country": "Vietnamese",
@@ -23,18 +35,6 @@
       "github": "",
       "link": "",
       "avatar": "https://www.gravatar.com/avatar/8866837fe0d06b662558ca7520673262?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
-      "website": ""
-    },
-    {
-      "name": "Alper Demir",
-      "username": "alper-demir",
-      "country": "Turkish",
-      "flag": "TR",
-      "count": 44863,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/155283423312fb422acc72b8ef875c38?s=150\t",
       "website": ""
     },
     {
@@ -54,11 +54,35 @@
       "username": "",
       "country": "Polish",
       "flag": "PL",
-      "count": 16427,
+      "count": 18633,
       "twitter": "",
       "github": "",
       "link": "",
       "avatar": "",
+      "website": ""
+    },
+    {
+      "name": "Enzo Ferrara",
+      "username": "ferribbotte",
+      "country": "Italian",
+      "flag": "IT",
+      "count": 17636,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/6698c8153715220dd43511e416505f1f?s=150\t",
+      "website": ""
+    },
+    {
+      "name": "Yuji Sugimoto",
+      "username": "bm-sugi",
+      "country": "Japanese",
+      "flag": "JP",
+      "count": 17509,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/794d193190dbb1e837f8cf8f998b2c99_l.jpg",
       "website": ""
     },
     {
@@ -74,15 +98,15 @@
       "website": ""
     },
     {
-      "name": "Enzo Ferrara",
-      "username": "ferribbotte",
-      "country": "Italian",
-      "flag": "IT",
-      "count": 15603,
+      "name": "lolypop000",
+      "username": "",
+      "country": "Slovenian",
+      "flag": "SI",
+      "count": 16193,
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": "https://www.gravatar.com/avatar/6698c8153715220dd43511e416505f1f?s=150\t",
+      "avatar": "",
       "website": ""
     },
     {
@@ -90,7 +114,7 @@
       "username": "filipfilipovic",
       "country": "Croatian",
       "flag": "HR",
-      "count": 14812,
+      "count": 15945,
       "twitter": "",
       "github": "",
       "link": "",
@@ -110,27 +134,15 @@
       "website": ""
     },
     {
-      "name": "lolypop000",
-      "username": "",
-      "country": "Slovenian",
-      "flag": "SI",
-      "count": 14160,
+      "name": "Roy",
+      "username": "rstvMacRoy",
+      "country": "Swedish",
+      "flag": "SE",
+      "count": 13622,
       "twitter": "",
       "github": "",
       "link": "",
       "avatar": "",
-      "website": ""
-    },
-    {
-      "name": "Yuji Sugimoto",
-      "username": "bm-sugi",
-      "country": "Japanese",
-      "flag": "JP",
-      "count": 13749,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/794d193190dbb1e837f8cf8f998b2c99_l.jpg",
       "website": ""
     },
     {
@@ -150,7 +162,7 @@
       "username": "",
       "country": "German",
       "flag": "DE",
-      "count": 12933,
+      "count": 13028,
       "twitter": "",
       "github": "",
       "link": "",
@@ -182,23 +194,11 @@
       "website": "http://www.linkedin.com/in/oriold)"
     },
     {
-      "name": "Roy",
-      "username": "rstvMacRoy",
-      "country": "Swedish",
-      "flag": "SE",
-      "count": 11573,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
-      "website": ""
-    },
-    {
       "name": "Nicolas Zampieri",
       "username": "nickzampieri",
       "country": "French, CA",
       "flag": "CA",
-      "count": 8979,
+      "count": 10114,
       "twitter": "",
       "github": "",
       "link": "",
@@ -246,7 +246,7 @@
       "username": "raidhunters",
       "country": "Ukrainian",
       "flag": "UA",
-      "count": 7075,
+      "count": 7248,
       "twitter": "",
       "github": "",
       "link": "",
@@ -263,6 +263,18 @@
       "github": "",
       "link": "",
       "avatar": "https://www.gravatar.com/avatar/691a94730df2fdde071b91900b50b931?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
+      "website": ""
+    },
+    {
+      "name": "AmirRzd",
+      "username": "",
+      "country": "Persian",
+      "flag": "IR",
+      "count": 6641,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/210f3be145fcedb8bf5cd2d74834a114?s=150\t",
       "website": ""
     },
     {
@@ -290,6 +302,18 @@
       "website": ""
     },
     {
+      "name": "webdvl",
+      "username": "megashopba",
+      "country": "Slovak",
+      "flag": "SK",
+      "count": 5186,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/7a6e198ac1a593ed2568d0c028fabebd_l.png",
+      "website": ""
+    },
+    {
       "name": "warface",
       "username": "",
       "country": "Persian",
@@ -307,6 +331,18 @@
       "country": "Bulgarian",
       "flag": "BG",
       "count": 4684,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
+      "name": "Erik Knudsen",
+      "username": "eriknuds",
+      "country": "Norwegian",
+      "flag": "NO",
+      "count": 4604,
       "twitter": "",
       "github": "",
       "link": "",
@@ -335,30 +371,6 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/3ae8e2975c2f9c527e8c465c1a10ca86_l.jpg\t",
-      "website": ""
-    },
-    {
-      "name": "webdvl",
-      "username": "megashopba",
-      "country": "Slovak",
-      "flag": "SK",
-      "count": 3955,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/7a6e198ac1a593ed2568d0c028fabebd_l.png",
-      "website": ""
-    },
-    {
-      "name": "AmirRzd",
-      "username": "",
-      "country": "Persian",
-      "flag": "IR",
-      "count": 3925,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/210f3be145fcedb8bf5cd2d74834a114?s=150\t",
       "website": ""
     },
     {
@@ -410,15 +422,15 @@
       "website": ""
     },
     {
-      "name": "Erik Knudsen",
-      "username": "eriknuds",
-      "country": "Norwegian",
-      "flag": "NO",
-      "count": 2593,
+      "name": "Ilyasov Ivan",
+      "username": "tRACE",
+      "country": "Russian",
+      "flag": "RU",
+      "count": 2615,
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": "",
+      "avatar": "https://www.gravatar.com/avatar/d1c8449aa9913eb5cd486fa118855d73?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
       "website": ""
     },
     {
@@ -722,6 +734,18 @@
       "website": ""
     },
     {
+      "name": "Junior Maciel",
+      "username": "JuniorMaciel",
+      "country": "Portuguese, BR",
+      "flag": "BR",
+      "count": 1133,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/926deb94cbd9eb87b57838c2d25a7d27_l.jpg",
+      "website": ""
+    },
+    {
       "name": "Ákos Beke",
       "username": "akosbeke",
       "country": "Hungarian",
@@ -827,18 +851,6 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/532232d840d8b8917b6f645c1e6aee9e_l.jpg",
-      "website": ""
-    },
-    {
-      "name": "Junior Maciel",
-      "username": "JuniorMaciel",
-      "country": "Portuguese, BR",
-      "flag": "BR",
-      "count": 954,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/926deb94cbd9eb87b57838c2d25a7d27_l.jpg",
       "website": ""
     },
     {
@@ -1058,18 +1070,6 @@
       "website": ""
     },
     {
-      "name": "Ilyasov Ivan",
-      "username": "tRACE",
-      "country": "Russian",
-      "flag": "RU",
-      "count": 582,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/d1c8449aa9913eb5cd486fa118855d73?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
-      "website": ""
-    },
-    {
       "name": "rodrigojob",
       "username": "",
       "country": "Portuguese, BR",
@@ -1104,77 +1104,29 @@
       "link": "",
       "avatar": "",
       "website": ""
+    },
+    {
+      "name": "Mojtaba Malaekeh",
+      "username": "mojtabamalaekeh",
+      "country": "Persian",
+      "flag": "IR",
+      "count": 512,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
     }
   ],
   "languages": [
-    {
-      "country": "Croatian",
-      "flag": "HR",
-      "percent": 100
-    },
-    {
-      "country": "Danish",
-      "flag": "DK",
-      "percent": 100
-    },
-    {
-      "country": "English",
-      "flag": "US",
-      "percent": 100
-    },
-    {
-      "country": "French",
-      "flag": "FR",
-      "percent": 100
-    },
-    {
-      "country": "French, CA",
-      "flag": "CA",
-      "percent": 100
-    },
-    {
-      "country": "German",
-      "flag": "DE",
-      "percent": 100
-    },
     {
       "country": "Italian",
       "flag": "IT",
       "percent": 100
     },
     {
-      "country": "Lithuanian",
-      "flag": "LT",
-      "percent": 100
-    },
-    {
-      "country": "Norwegian",
-      "flag": "NO",
-      "percent": 100
-    },
-    {
-      "country": "Portuguese, BR",
-      "flag": "BR",
-      "percent": 100
-    },
-    {
-      "country": "Portuguese",
-      "flag": "PT",
-      "percent": 100
-    },
-    {
-      "country": "Romanian",
-      "flag": "RO",
-      "percent": 100
-    },
-    {
       "country": "Russian",
       "flag": "RU",
-      "percent": 100
-    },
-    {
-      "country": "Slovak",
-      "flag": "SK",
       "percent": 100
     },
     {
@@ -1188,129 +1140,189 @@
       "percent": 100
     },
     {
-      "country": "Turkish",
-      "flag": "TR",
+      "country": "English",
+      "flag": "US",
       "percent": 100
     },
     {
-      "country": "Spanish",
-      "flag": "ES",
+      "country": "French",
+      "flag": "FR",
       "percent": 99
     },
     {
-      "country": "Greek",
-      "flag": "GR",
+      "country": "Norwegian",
+      "flag": "NO",
+      "percent": 99
+    },
+    {
+      "country": "Croatian",
+      "flag": "HR",
+      "percent": 98
+    },
+    {
+      "country": "Slovak",
+      "flag": "SK",
+      "percent": 98
+    },
+    {
+      "country": "Turkish",
+      "flag": "TR",
       "percent": 98
     },
     {
       "country": "Polish",
       "flag": "PL",
-      "percent": 98
+      "percent": 97
     },
     {
-      "country": "Bulgarian",
-      "flag": "BG",
+      "country": "German",
+      "flag": "DE",
       "percent": 96
     },
     {
-      "country": "Dutch",
-      "flag": "NL",
+      "country": "Lithuanian",
+      "flag": "LT",
       "percent": 96
     },
     {
-      "country": "Hungarian",
-      "flag": "HU",
+      "country": "Portuguese, BR",
+      "flag": "BR",
       "percent": 96
     },
     {
-      "country": "Indonesian",
-      "flag": "ID",
+      "country": "Portuguese",
+      "flag": "PT",
       "percent": 96
     },
     {
-      "country": "Ukrainian",
-      "flag": "UA",
+      "country": "Spanish",
+      "flag": "ES",
       "percent": 96
     },
     {
-      "country": "Czech",
-      "flag": "CZ",
+      "country": "Danish",
+      "flag": "DK",
       "percent": 95
     },
     {
-      "country": "Catalan",
-      "flag": "CAT",
-      "percent": 94
+      "country": "Greek",
+      "flag": "GR",
+      "percent": 95
     },
     {
-      "country": "Estonian",
-      "flag": "EE",
-      "percent": 94
-    },
-    {
-      "country": "Finnish",
-      "flag": "FI",
-      "percent": 94
-    },
-    {
-      "country": "Vietnamese",
-      "flag": "VN",
+      "country": "French, CA",
+      "flag": "CA",
       "percent": 94
     },
     {
       "country": "Persian",
       "flag": "IR",
+      "percent": 94
+    },
+    {
+      "country": "Romanian",
+      "flag": "RO",
+      "percent": 94
+    },
+    {
+      "country": "Bulgarian",
+      "flag": "BG",
+      "percent": 93
+    },
+    {
+      "country": "Czech",
+      "flag": "CZ",
+      "percent": 93
+    },
+    {
+      "country": "Dutch",
+      "flag": "NL",
+      "percent": 93
+    },
+    {
+      "country": "Hungarian",
+      "flag": "HU",
+      "percent": 93
+    },
+    {
+      "country": "Indonesian",
+      "flag": "ID",
+      "percent": 93
+    },
+    {
+      "country": "Ukrainian",
+      "flag": "UA",
+      "percent": 93
+    },
+    {
+      "country": "Catalan",
+      "flag": "CAT",
+      "percent": 92
+    },
+    {
+      "country": "Estonian",
+      "flag": "EE",
+      "percent": 92
+    },
+    {
+      "country": "Finnish",
+      "flag": "FI",
+      "percent": 92
+    },
+    {
+      "country": "Vietnamese",
+      "flag": "VN",
       "percent": 92
     },
     {
       "country": "Chinese Traditional",
       "flag": "TW",
-      "percent": 73
+      "percent": 71
     },
     {
       "country": "Hebrew",
       "flag": "IL",
-      "percent": 72
+      "percent": 70
     },
     {
       "country": "German, CH",
       "flag": "CH",
-      "percent": 70
+      "percent": 68
     },
     {
       "country": "Japanese",
       "flag": "JP",
-      "percent": 70
+      "percent": 68
     },
     {
       "country": "Galician",
       "flag": "GL",
-      "percent": 67
+      "percent": 66
     },
     {
       "country": "Spanish, CO",
       "flag": "CO",
-      "percent": 64
+      "percent": 63
     },
     {
       "country": "Macedonian",
       "flag": "MK",
-      "percent": 57
+      "percent": 58
     },
     {
       "country": "Chinese Simplified",
       "flag": "CN",
-      "percent": 53
-    },
-    {
-      "country": "Arabic",
-      "flag": "AE",
-      "percent": 42
+      "percent": 51
     },
     {
       "country": "Spanish, MX",
       "flag": "MX",
       "percent": 42
+    },
+    {
+      "country": "Arabic",
+      "flag": "AE",
+      "percent": 41
     },
     {
       "country": "Bengali",
@@ -1320,7 +1332,7 @@
     {
       "country": "Armenian",
       "flag": "AM",
-      "percent": 32
+      "percent": 33
     },
     {
       "country": "Malay",
@@ -1330,7 +1342,7 @@
     {
       "country": "Latvian",
       "flag": "LV",
-      "percent": 27
+      "percent": 26
     },
     {
       "country": "Nynorsk",
@@ -1340,7 +1352,7 @@
     {
       "country": "Albanian",
       "flag": "AL",
-      "percent": 21
+      "percent": 20
     },
     {
       "country": "Thai",
@@ -1360,22 +1372,12 @@
     {
       "country": "Korean",
       "flag": "KR",
-      "percent": 12
+      "percent": 11
     },
     {
       "country": "Tatar",
       "flag": "TT",
-      "percent": 12
-    },
-    {
-      "country": "Lao",
-      "flag": "LA",
       "percent": 11
-    },
-    {
-      "country": "Azerbaijani",
-      "flag": "AZ",
-      "percent": 10
     },
     {
       "country": "Georgian",
@@ -1383,14 +1385,19 @@
       "percent": 10
     },
     {
-      "country": "Uyghur",
-      "flag": "UG",
-      "percent": 8
+      "country": "Lao",
+      "flag": "LA",
+      "percent": 10
     },
     {
-      "country": "German, LU",
-      "flag": "LU",
-      "percent": 4
+      "country": "Azerbaijani",
+      "flag": "AZ",
+      "percent": 9
+    },
+    {
+      "country": "Uyghur",
+      "flag": "UG",
+      "percent": 7
     },
     {
       "country": "Breton",
@@ -1398,13 +1405,18 @@
       "percent": 3
     },
     {
-      "country": "Mongolian",
-      "flag": "MM",
+      "country": "English, UK",
+      "flag": "GB",
       "percent": 3
     },
     {
-      "country": "Spanish, PE",
-      "flag": "PE",
+      "country": "German, LU",
+      "flag": "LU",
+      "percent": 3
+    },
+    {
+      "country": "Mongolian",
+      "flag": "MM",
       "percent": 3
     },
     {
@@ -1418,13 +1430,13 @@
       "percent": 3
     },
     {
-      "country": "English, UK",
-      "flag": "GB",
+      "country": "Sinhala",
+      "flag": "LK",
       "percent": 2
     },
     {
-      "country": "Sinhala",
-      "flag": "LK",
+      "country": "Spanish, PE",
+      "flag": "PE",
       "percent": 2
     },
     {
