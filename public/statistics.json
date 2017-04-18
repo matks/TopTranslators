@@ -1,5 +1,5 @@
 {
-  "date": "April 10, 2017",
+  "date": "April 18, 2017",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -54,7 +54,7 @@
       "username": "bm-sugi",
       "country": "Japanese",
       "flag": "JP",
-      "count": 23059,
+      "count": 23719,
       "twitter": "",
       "github": "",
       "link": "",
@@ -90,7 +90,7 @@
       "username": "",
       "country": "Russian",
       "flag": "RU",
-      "count": 17018,
+      "count": 17025,
       "twitter": "",
       "github": "DaoKakao",
       "link": "",
@@ -138,7 +138,7 @@
       "username": "",
       "country": "German",
       "flag": "DE",
-      "count": 14428,
+      "count": 14434,
       "twitter": "",
       "github": "",
       "link": "",
@@ -182,6 +182,18 @@
       "website": ""
     },
     {
+      "name": "Jesús Ruiz",
+      "username": "jruiz",
+      "country": "Spanish",
+      "flag": "ES",
+      "count": 12148,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/3ae8e2975c2f9c527e8c465c1a10ca86_l.jpg\t",
+      "website": ""
+    },
+    {
       "name": "Michael Dekker",
       "username": "mdekker",
       "country": "Dutch",
@@ -206,15 +218,15 @@
       "website": "http://www.linkedin.com/in/oriold)"
     },
     {
-      "name": "Jesús Ruiz",
-      "username": "jruiz",
-      "country": "Spanish",
-      "flag": "ES",
-      "count": 11620,
+      "name": "SkaZun",
+      "username": "raidhunters",
+      "country": "Ukrainian",
+      "flag": "UA",
+      "count": 9012,
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/3ae8e2975c2f9c527e8c465c1a10ca86_l.jpg\t",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/77547d91a6adf46ac42dbd6a9f959bda_l.jpg\t",
       "website": ""
     },
     {
@@ -227,18 +239,6 @@
       "github": "",
       "link": "",
       "avatar": "",
-      "website": ""
-    },
-    {
-      "name": "SkaZun",
-      "username": "raidhunters",
-      "country": "Ukrainian",
-      "flag": "UA",
-      "count": 8166,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/77547d91a6adf46ac42dbd6a9f959bda_l.jpg\t",
       "website": ""
     },
     {
@@ -266,6 +266,18 @@
       "website": ""
     },
     {
+      "name": "AmirRzd",
+      "username": "",
+      "country": "Persian",
+      "flag": "IR",
+      "count": 7095,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/210f3be145fcedb8bf5cd2d74834a114?s=150\t",
+      "website": ""
+    },
+    {
       "name": "daichang",
       "username": "",
       "country": "Japanese",
@@ -278,23 +290,11 @@
       "website": ""
     },
     {
-      "name": "AmirRzd",
-      "username": "",
-      "country": "Persian",
-      "flag": "IR",
-      "count": 6694,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/210f3be145fcedb8bf5cd2d74834a114?s=150\t",
-      "website": ""
-    },
-    {
       "name": "webdvl",
       "username": "megashopba",
       "country": "Slovak",
       "flag": "SK",
-      "count": 6045,
+      "count": 6046,
       "twitter": "",
       "github": "",
       "link": "",
@@ -362,6 +362,18 @@
       "website": ""
     },
     {
+      "name": "SeongHyeon Cho",
+      "username": "jaymz9634",
+      "country": "Korean",
+      "flag": "KR",
+      "count": 4669,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/82b29fcbad17356a05f071ceade3872a?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
+      "website": ""
+    },
+    {
       "name": "Erik Knudsen",
       "username": "eriknuds",
       "country": "Norwegian",
@@ -374,18 +386,6 @@
       "website": ""
     },
     {
-      "name": "SeongHyeon Cho",
-      "username": "jaymz9634",
-      "country": "Korean",
-      "flag": "KR",
-      "count": 4511,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/82b29fcbad17356a05f071ceade3872a?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
-      "website": ""
-    },
-    {
       "name": "pixelwebmx1",
       "username": "",
       "country": "Spanish, MX",
@@ -395,6 +395,18 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/cad63a0b2dd9ccdc68c441e0f70e79cd_l.png",
+      "website": ""
+    },
+    {
+      "name": "hanen_bradai",
+      "username": "",
+      "country": "Arabic",
+      "flag": "AE",
+      "count": 4011,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
       "website": ""
     },
     {
@@ -434,27 +446,27 @@
       "website": ""
     },
     {
-      "name": "Ilyasov Ivan",
-      "username": "tRACE",
-      "country": "Russian",
-      "flag": "RU",
-      "count": 2634,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/d1c8449aa9913eb5cd486fa118855d73?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
-      "website": ""
-    },
-    {
-      "name": "hanen_bradai",
-      "username": "",
-      "country": "Arabic",
-      "flag": "AE",
-      "count": 2453,
+      "name": "Mojtaba Malaekeh",
+      "username": "mojtabamalaekeh",
+      "country": "Persian",
+      "flag": "IR",
+      "count": 3488,
       "twitter": "",
       "github": "",
       "link": "",
       "avatar": "",
+      "website": ""
+    },
+    {
+      "name": "Ilyasov Ivan",
+      "username": "tRACE",
+      "country": "Russian",
+      "flag": "RU",
+      "count": 2716,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/d1c8449aa9913eb5cd486fa118855d73?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
       "website": ""
     },
     {
@@ -662,6 +674,18 @@
       "website": ""
     },
     {
+      "name": "Carlos Loyola Vásquez",
+      "username": "carlosloyola14",
+      "country": "Spanish, PE",
+      "flag": "PE",
+      "count": 1354,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
       "name": "Mads Oliver Jenssen",
       "username": "madsoliver",
       "country": "Norwegian",
@@ -698,11 +722,11 @@
       "website": ""
     },
     {
-      "name": "Carlos Loyola Vásquez",
-      "username": "carlosloyola14",
-      "country": "Spanish, PE",
-      "flag": "PE",
-      "count": 1326,
+      "name": "Stanislav Yordanov",
+      "username": "StanProg",
+      "country": "Bulgarian",
+      "flag": "BG",
+      "count": 1328,
       "twitter": "",
       "github": "",
       "link": "",
@@ -719,6 +743,18 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/0e715468ce6fae80fec1ee163cfd74e7_l.jpg\t",
+      "website": ""
+    },
+    {
+      "name": "Bulldesign",
+      "username": "",
+      "country": "Danish",
+      "flag": "DK",
+      "count": 1275,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
       "website": ""
     },
     {
@@ -818,18 +854,6 @@
       "website": ""
     },
     {
-      "name": "Stanislav Yordanov",
-      "username": "StanProg",
-      "country": "Bulgarian",
-      "flag": "BG",
-      "count": 1067,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
-      "website": ""
-    },
-    {
       "name": "jdperea59",
       "username": "",
       "country": "Spanish, CO",
@@ -902,11 +926,11 @@
       "website": ""
     },
     {
-      "name": "nasimparsi",
+      "name": "postbluecz",
       "username": "",
-      "country": "Persian",
-      "flag": "IR",
-      "count": 852,
+      "country": "Czech",
+      "flag": "CZ",
+      "count": 865,
       "twitter": "",
       "github": "",
       "link": "",
@@ -914,11 +938,11 @@
       "website": ""
     },
     {
-      "name": "Mojtaba Malaekeh",
-      "username": "mojtabamalaekeh",
+      "name": "nasimparsi",
+      "username": "",
       "country": "Persian",
       "flag": "IR",
-      "count": 836,
+      "count": 852,
       "twitter": "",
       "github": "",
       "link": "",
@@ -1022,6 +1046,18 @@
       "website": ""
     },
     {
+      "name": "Long Vu Duc",
+      "username": "longvu75",
+      "country": "Vietnamese",
+      "flag": "VN",
+      "count": 689,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/3eebc284bd83ccda2845d9f0bd9fc04a_l.jpg",
+      "website": ""
+    },
+    {
       "name": "Huseyn Ismayilov",
       "username": "hismayilov",
       "country": "Azerbaijani",
@@ -1055,18 +1091,6 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/abbcb6c6a25a63bd468746c7d64d2b35_l.jpg\t",
-      "website": ""
-    },
-    {
-      "name": "postbluecz",
-      "username": "",
-      "country": "Czech",
-      "flag": "CZ",
-      "count": 656,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
       "website": ""
     },
     {
@@ -1142,6 +1166,18 @@
       "website": ""
     },
     {
+      "name": "Mohammad Sadegh Rategh",
+      "username": "Rategh",
+      "country": "Persian",
+      "flag": "IR",
+      "count": 577,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/6aca211111332dcd52ca0c313aaafba1_l.png",
+      "website": ""
+    },
+    {
       "name": "rodrigojob",
       "username": "",
       "country": "Portuguese, BR",
@@ -1163,18 +1199,6 @@
       "github": "",
       "link": "",
       "avatar": "",
-      "website": ""
-    },
-    {
-      "name": "Mohammad Sadegh Rategh",
-      "username": "Rategh",
-      "country": "Persian",
-      "flag": "IR",
-      "count": 539,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/6aca211111332dcd52ca0c313aaafba1_l.png",
       "website": ""
     },
     {
@@ -1203,6 +1227,11 @@
     }
   ],
   "languages": [
+    {
+      "country": "English",
+      "flag": "US",
+      "percent": 100
+    },
     {
       "country": "French",
       "flag": "FR",
@@ -1259,9 +1288,9 @@
       "percent": 100
     },
     {
-      "country": "English",
-      "flag": "US",
-      "percent": 100
+      "country": "Persian",
+      "flag": "IR",
+      "percent": 99
     },
     {
       "country": "Polish",
@@ -1279,14 +1308,14 @@
       "percent": 98
     },
     {
+      "country": "Danish",
+      "flag": "DK",
+      "percent": 98
+    },
+    {
       "country": "Lithuanian",
       "flag": "LT",
       "percent": 97
-    },
-    {
-      "country": "Persian",
-      "flag": "IR",
-      "percent": 96
     },
     {
       "country": "Portuguese, BR",
@@ -1299,13 +1328,13 @@
       "percent": 96
     },
     {
-      "country": "Bulgarian",
-      "flag": "BG",
-      "percent": 95
+      "country": "Ukrainian",
+      "flag": "UA",
+      "percent": 96
     },
     {
-      "country": "Danish",
-      "flag": "DK",
+      "country": "Bulgarian",
+      "flag": "BG",
       "percent": 95
     },
     {
@@ -1316,11 +1345,6 @@
     {
       "country": "Romanian",
       "flag": "RO",
-      "percent": 94
-    },
-    {
-      "country": "Ukrainian",
-      "flag": "UA",
       "percent": 94
     },
     {
@@ -1339,6 +1363,11 @@
       "percent": 93
     },
     {
+      "country": "Vietnamese",
+      "flag": "VN",
+      "percent": 93
+    },
+    {
       "country": "Catalan",
       "flag": "CAT",
       "percent": 92
@@ -1354,14 +1383,9 @@
       "percent": 92
     },
     {
-      "country": "Vietnamese",
-      "flag": "VN",
-      "percent": 92
-    },
-    {
       "country": "Japanese",
       "flag": "JP",
-      "percent": 72
+      "percent": 73
     },
     {
       "country": "Chinese Traditional",
@@ -1401,7 +1425,7 @@
     {
       "country": "Arabic",
       "flag": "AE",
-      "percent": 46
+      "percent": 48
     },
     {
       "country": "Spanish, MX",
