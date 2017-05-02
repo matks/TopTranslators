@@ -1,85 +1,81 @@
-English,100,DONE
-French,100,DONE
-"French, Canada",100,DONE
-German,100,DONE
-Greek,100,DONE
-Italian,100,DONE
-Norwegian,100,DONE
-Russian,100,DONE
-Slovak,100,DONE
-Slovenian,100,DONE
-Swedish,100,DONE
-Turkish,100,DONE
 Ukrainian,100,DONE
-Persian,99,TOP 10
-Polish,99,TOP 10
-Spanish,99,TOP 10
-Croatian,98,TOP 10
-Danish,98,TOP 10
-Lithuanian,97,TOP 10
-"Portuguese, Brazilian",96,TOP 10
-Portuguese,96,TOP 10
-Bulgarian,95,TOP 10
-Czech,94,TOP 10
-Romanian,94,
+Italian,100,DONE
+"French, Canada",100,DONE
+French,100,DONE
+English,100,DONE
+Turkish,100,DONE
+Swedish,100,DONE
+Slovenian,100,DONE
+Slovak,100,DONE
+Russian,100,DONE
+Norwegian,100,DONE
+Greek,100,DONE
+Croatian,100,DONE
+German,100,DONE
+Polish,99,"TOP 10"
+Persian,99,"TOP 10"
+Danish,98,"TOP 10"
+Lithuanian,97,"TOP 10"
+"Portuguese, Brazilian",97,"TOP 10"
+Portuguese,96,"TOP 10"
+Bulgarian,95,"TOP 10"
+Romanian,94,"TOP 10"
+Czech,94,"TOP 10"
+Indonesian,93,"TOP 10"
 Dutch,93,
 Hungarian,93,
-Indonesian,93,
 Vietnamese,93,
-Catalan,92,
 Estonian,92,
+Catalan,92,
 Finnish,92,
-Japanese,76,
-Chinese Traditional,72,
+Japanese,78,
+"Chinese Traditional",72,
 Hebrew,70,
 "German, Switzerland",68,
 Galician,66,
 "Spanish, Colombia",63,
 Macedonian,58,
-Serbian,54,
-Chinese Simplified,51,
-Arabic,49,
+Arabic,55,
+"Serbian (Latin)",54,
+"Chinese Simplified",51,
 "Spanish, Mexico",42,
 Bengali,38,
 Armenian,33,
 Malay,29,
 Latvian,26,
-Norwegian Nynorsk,23,
+"Norwegian Nynorsk",23,
 Albanian,21,
 Thai,21,
-Korean,15,
+Korean,18,
 "Spanish, Argentina",14,
-Basque,13,
 Tatar,11,
-Georgian,10,
 Lao,10,
+Kannada,10,
 Azerbaijani,9,
 Uyghur,7,
-"Spanish, Peru",6,
-Breton,3,
+"Spanish, Peru",7,
 "English, United Kingdom",3,
-"German, Luxembourg",3,
-Mongolian,3,
-"Spanish, Venezuela",3,
 Tamil,3,
+Breton,3,
+Mongolian,3,
+"German, Luxembourg",3,
+"Spanish, Venezuela",3,
+"Urdu, Pakistan",2,
 Nepali,2,
 Sinhala,2,
-Urdu (Pakistan),2,
-Icelandic,1,
 Khmer,1,
+Icelandic,1,
 Kurdish,1,
-Bosnian,0,
-"German, Austrian",0,
-Hindi,0,
-Irish,0,
-Kannada,0,
-Malagasy,0,
-Malayalam,0,
-Oriya,0,
-"Spanish, Honduras",0,
 "Spanish, El Salvador",0,
-Swahili,0,
+Irish,0,
+"Spanish, Honduras",0,
+"German, Austrian",0,
+Bosnian,0,
+Hindi,0,
+Malayalam,0,
+Malagasy,0,
 "Swahili, Tanzania",0,
 Telugu,0,
-"French, Quebec",,
-Montenegrin,,
+Montenegrin,0,
+Oriya,0,
+Swahili,0,
