@@ -1,5 +1,5 @@
 {
-  "date": "May 02, 2017",
+  "date": "May 10, 2017",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -38,6 +38,18 @@
       "website": ""
     },
     {
+      "name": "Yuji Sugimoto",
+      "username": "bm-sugi",
+      "country": "Japanese",
+      "flag": "JP",
+      "count": 27467,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/794d193190dbb1e837f8cf8f998b2c99_l.jpg",
+      "website": ""
+    },
+    {
       "name": "A Petapouca",
       "username": "petapouca",
       "country": "Galician",
@@ -50,23 +62,11 @@
       "website": "http://decolonial.gal/"
     },
     {
-      "name": "Yuji Sugimoto",
-      "username": "bm-sugi",
-      "country": "Japanese",
-      "flag": "JP",
-      "count": 26809,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/794d193190dbb1e837f8cf8f998b2c99_l.jpg",
-      "website": ""
-    },
-    {
       "name": "Koral",
       "username": "",
       "country": "Polish",
       "flag": "PL",
-      "count": 21575,
+      "count": 21629,
       "twitter": "",
       "github": "",
       "link": "",
@@ -90,7 +90,7 @@
       "username": "",
       "country": "Russian",
       "flag": "RU",
-      "count": 17025,
+      "count": 17094,
       "twitter": "",
       "github": "DaoKakao",
       "link": "",
@@ -102,7 +102,7 @@
       "username": "filipfilipovic",
       "country": "Croatian",
       "flag": "HR",
-      "count": 16628,
+      "count": 16631,
       "twitter": "",
       "github": "",
       "link": "",
@@ -134,11 +134,23 @@
       "website": ""
     },
     {
+      "name": "Jesús Ruiz",
+      "username": "jruiz",
+      "country": "Spanish",
+      "flag": "ES",
+      "count": 14600,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/3ae8e2975c2f9c527e8c465c1a10ca86_l.jpg\t",
+      "website": ""
+    },
+    {
       "name": "eleazar",
       "username": "",
       "country": "German",
       "flag": "DE",
-      "count": 14434,
+      "count": 14459,
       "twitter": "",
       "github": "",
       "link": "",
@@ -194,18 +206,6 @@
       "website": ""
     },
     {
-      "name": "Jesús Ruiz",
-      "username": "jruiz",
-      "country": "Spanish",
-      "flag": "ES",
-      "count": 12692,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/3ae8e2975c2f9c527e8c465c1a10ca86_l.jpg\t",
-      "website": ""
-    },
-    {
       "name": "Michael Dekker",
       "username": "mdekker",
       "country": "Dutch",
@@ -234,7 +234,7 @@
       "username": "cafetango",
       "country": "Chinese Traditional",
       "flag": "TW",
-      "count": 8992,
+      "count": 9043,
       "twitter": "",
       "github": "",
       "link": "",
@@ -350,6 +350,18 @@
       "website": ""
     },
     {
+      "name": "khouloud_SIFAST",
+      "username": "",
+      "country": "Arabic",
+      "flag": "AE",
+      "count": 5101,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
       "name": "farior",
       "username": "",
       "country": "Bulgarian",
@@ -458,18 +470,6 @@
       "website": ""
     },
     {
-      "name": "khouloud_SIFAST",
-      "username": "",
-      "country": "Arabic",
-      "flag": "AE",
-      "count": 3094,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
-      "website": ""
-    },
-    {
       "name": "Ilyasov Ivan",
       "username": "tRACE",
       "country": "Russian",
@@ -554,6 +554,18 @@
       "website": ""
     },
     {
+      "name": "M. Mirena",
+      "username": "mmirena",
+      "country": "Albanian",
+      "flag": "AL",
+      "count": 2057,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/e381b3a3459656626fe9a0a63180a3c9?s=150\t",
+      "website": ""
+    },
+    {
       "name": "cloud_web",
       "username": "",
       "country": "Georgian",
@@ -602,18 +614,6 @@
       "website": ""
     },
     {
-      "name": "M. Mirena",
-      "username": "mmirena",
-      "country": "Albanian",
-      "flag": "AL",
-      "count": 1798,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/e381b3a3459656626fe9a0a63180a3c9?s=150\t",
-      "website": ""
-    },
-    {
       "name": "Sagar Pokhrel (Hem)",
       "username": "geeksagar",
       "country": "Nepali",
@@ -631,6 +631,18 @@
       "country": "Romanian",
       "flag": "RO",
       "count": 1680,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
+      "name": "Stanislav Yordanov",
+      "username": "StanProg",
+      "country": "Bulgarian",
+      "flag": "BG",
+      "count": 1622,
       "twitter": "",
       "github": "",
       "link": "",
@@ -695,18 +707,6 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/c02b5d76846543b2cf01a1128c1e73b9_l.jpg\t",
-      "website": ""
-    },
-    {
-      "name": "Stanislav Yordanov",
-      "username": "StanProg",
-      "country": "Bulgarian",
-      "flag": "BG",
-      "count": 1362,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
       "website": ""
     },
     {
@@ -806,6 +806,18 @@
       "website": ""
     },
     {
+      "name": "lyoNick",
+      "username": "",
+      "country": "Hebrew",
+      "flag": "IL",
+      "count": 1162,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
       "name": "Junior Maciel",
       "username": "JuniorMaciel",
       "country": "Portuguese, BR",
@@ -839,18 +851,6 @@
       "github": "",
       "link": "",
       "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/840294c425c872c4c9230e4b1002d1cb_l.jpg",
-      "website": ""
-    },
-    {
-      "name": "lyoNick",
-      "username": "",
-      "country": "Hebrew",
-      "flag": "IL",
-      "count": 1096,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "",
       "website": ""
     },
     {
@@ -1415,7 +1415,7 @@
     {
       "country": "Japanese",
       "flag": "JP",
-      "percent": 78
+      "percent": 80
     },
     {
       "country": "Chinese Traditional",
@@ -1443,19 +1443,14 @@
       "percent": 63
     },
     {
+      "country": "Arabic",
+      "flag": "AE",
+      "percent": 59
+    },
+    {
       "country": "Macedonian",
       "flag": "MK",
       "percent": 58
-    },
-    {
-      "country": "Arabic",
-      "flag": "AE",
-      "percent": 55
-    },
-    {
-      "country": "Serbian (Latin)",
-      "flag": "RS",
-      "percent": 54
     },
     {
       "country": "Chinese Simplified",
@@ -1571,11 +1566,6 @@
       "country": "Spanish, VE",
       "flag": "VE",
       "percent": 3
-    },
-    {
-      "country": "Urdu, PK",
-      "flag": "PK",
-      "percent": 2
     },
     {
       "country": "Nepali",
