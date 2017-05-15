@@ -2,12 +2,12 @@ User,Language,"Total Words",Rank,Category
 "Gabriel Teniță (ggedamed)",Romanian,98110,1,1
 "Alper Demir (alper-demir)",Turkish,46896,2,1
 dzuman,Vietnamese,45502,3,1
-"Yuji Sugimoto (bm-sugi)",Japanese,27467,4,1
+"Yuji Sugimoto (bm-sugi)",Japanese,27779,4,1
 "A Petapouca (petapouca)",Galician,27165,5,1
 Koral,Polish,21629,6,1
-"Enzo Ferrara (ferribbotte)",Italian,17658,7,2
+"Enzo Ferrara (ferribbotte)",Italian,17687,7,2
 DaoKakao,Russian,17094,8,2
-"Filip Filipović (filipfilipovic)",Croatian,16631,9,2
+"Filip Filipović (filipfilipovic)",Croatian,16653,9,2
 lolypop000,Slovenian,16193,10,2
 "Monika (monikaraciunaite)",Lithuanian,15037,11,2
 "Jesús Ruiz (jruiz)",Spanish,14600,12,2
@@ -18,7 +18,7 @@ eleazar,German,14459,13,2
 "Nicolas Zampieri (nickzampieri)","French, Canada",12770,17,2
 "Michael Dekker (mdekker)",Dutch,12092,18,2
 "Oriol Duarri (oduarri)",Catalan,11996,19,2
-"Cha (cafetango)","Chinese Traditional",9043,20,2
+"Cha (cafetango)","Chinese Traditional",9279,20,2
 ondrej_pisa,Czech,7961,21,3
 daichang,Japanese,7527,22,3
 "Mauro Tschiedel (mauroagr)","Portuguese, Brazilian",7449,23,3
@@ -36,13 +36,13 @@ pixelwebmx1,"Spanish, Mexico",4498,34,4
 hanen_bradai,Arabic,4011,35,4
 transmetent,Catalan,3846,36,4
 "Vilnis Dreimanis (marketings)",Latvian,3815,37,4
-"Mojtaba Malaekeh (mojtabamalaekeh)",Persian,3550,38,4
-"Hai Andre Boukris (arnevo)",Hebrew,3525,39,4
-"Ilyasov Ivan (tRACE)",Russian,2716,40,4
-maurizioag,"Spanish, Venezuela",2400,41,5
-"Gunnar Orn Thordarson (gunnarornthordarson)",Icelandic,2350,42,5
-"Daniel Valente (dgv)","Portuguese, Brazilian",2327,43,5
-"Carlos Loyola Vásquez (carlosloyola14)","Spanish, Peru",2302,44,5
+"Hai Andre Boukris (arnevo)",Hebrew,3658,38,4
+"Mojtaba Malaekeh (mojtabamalaekeh)",Persian,3590,39,4
+"Carlos Loyola Vásquez (carlosloyola14)","Spanish, Peru",2754,40,4
+"Ilyasov Ivan (tRACE)",Russian,2716,41,4
+maurizioag,"Spanish, Venezuela",2400,42,5
+"Gunnar Orn Thordarson (gunnarornthordarson)",Icelandic,2350,43,5
+"Daniel Valente (dgv)","Portuguese, Brazilian",2327,44,5
 "Csaba Mártha (csy)",Hungarian,2210,45,5
 "Saeed Sattar Beglou (saeedsb)",Persian,2123,46,5
 "M. Mirena (mmirena)",Albanian,2057,47,5
@@ -66,23 +66,23 @@ Bulldesign,Danish,1275,64,5
 "Tor Eirik Trandal (teitrand)",Norwegian,1269,65,5
 "Jorge Vargas (jorgevrgs)","Spanish, Colombia",1268,66,5
 PifyZ,French,1265,67,5
-lyoNick,Hebrew,1162,68,5
-"Junior Maciel (JuniorMaciel)","Portuguese, Brazilian",1133,69,5
-"Ákos Beke (akosbeke)",Hungarian,1125,70,5
-Tomo402,Slovak,1121,71,5
-"Daniele Manarin (cracker_pazzo)",Italian,1070,72,5
-jdperea59,"Spanish, Colombia",1029,73,5
-remark,Turkish,1019,74,5
-"Sidney Fernando (sidneyfernando89)","Portuguese, Brazilian",1006,75,5
-"Adam Janík (jmenujuseadam)",Czech,996,76,5
-bhargavlalo,Hindi,982,77,5
-"Lucas Vitale (shacker)",Spanish,922,78,5
-postbluecz,Czech,865,79,5
-nasimparsi,Persian,852,80,5
-tujiguoman,Galician,828,81,5
-"Gabriel Manea (wwwimagineataRO)",Romanian,817,82,5
-MauricioMontoya,"Spanish, El Salvador",777,83,5
-"Teera Chaiyarat (kosita8896)",Thai,763,84,5
+RogerWMM,Catalan,1226,68,5
+lyoNick,Hebrew,1162,69,5
+"Junior Maciel (JuniorMaciel)","Portuguese, Brazilian",1133,70,5
+"Ákos Beke (akosbeke)",Hungarian,1125,71,5
+Tomo402,Slovak,1121,72,5
+"Daniele Manarin (cracker_pazzo)",Italian,1071,73,5
+jdperea59,"Spanish, Colombia",1029,74,5
+remark,Turkish,1019,75,5
+"Sidney Fernando (sidneyfernando89)","Portuguese, Brazilian",1006,76,5
+"Adam Janík (jmenujuseadam)",Czech,996,77,5
+bhargavlalo,Hindi,982,78,5
+"Lucas Vitale (shacker)",Spanish,922,79,5
+postbluecz,Czech,865,80,5
+nasimparsi,Persian,852,81,5
+tujiguoman,Galician,828,82,5
+"Gabriel Manea (wwwimagineataRO)",Romanian,817,83,5
+MauricioMontoya,"Spanish, El Salvador",777,84,5
 Alcoche,Spanish,755,85,5
 dehkka,"Portuguese, Brazilian",748,86,5
 hamidreza6620,Persian,709,87,5
@@ -97,8 +97,8 @@ tgferreira,Portuguese,656,94,5
 "Tamás Trischler (trisi75)",Hungarian,621,96,5
 "Lenny Obez (LennyObez)",French,607,97,5
 "Gytis Šk (gytis)",Lithuanian,597,98,5
-"Norwegian_Rat (Izraelviz)","Norwegian Nynorsk",586,99,5
-"Mohammad Sadegh Rategh (Rategh)",Persian,577,100,5
+"Mohammad Sadegh Rategh (Rategh)",Persian,591,99,5
+"Norwegian_Rat (Izraelviz)","Norwegian Nynorsk",586,100,5
 rodrigojob,"Portuguese, Brazilian",575,101,5
 Browserwerk,German,542,102,5
 ftugrul,Turkish,529,103,5
