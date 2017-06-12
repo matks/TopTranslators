@@ -1,5 +1,5 @@
 {
-  "date": "June 05, 2017",
+  "date": "June 12, 2017",
   "translators": [
     {
       "name": "Gabriel Teniță",
@@ -42,7 +42,7 @@
       "username": "bm-sugi",
       "country": "Japanese",
       "flag": "JP",
-      "count": 33670,
+      "count": 33979,
       "twitter": "",
       "github": "",
       "link": "",
@@ -54,7 +54,7 @@
       "username": "jruiz",
       "country": "Spanish",
       "flag": "ES",
-      "count": 29653,
+      "count": 31387,
       "twitter": "",
       "github": "",
       "link": "",
@@ -234,7 +234,7 @@
       "username": "jaymz9634",
       "country": "Korean",
       "flag": "KR",
-      "count": 10374,
+      "count": 11245,
       "twitter": "",
       "github": "",
       "link": "",
@@ -247,6 +247,18 @@
       "country": "Chinese Traditional",
       "flag": "TW",
       "count": 9813,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
+      "name": "Yosef Esses Cohen",
+      "username": "ppesses",
+      "country": "Spanish, MX",
+      "flag": "MX",
+      "count": 8857,
       "twitter": "",
       "github": "",
       "link": "",
@@ -318,7 +330,7 @@
       "username": "prestanesia",
       "country": "Indonesian",
       "flag": "ID",
-      "count": 5964,
+      "count": 6084,
       "twitter": "",
       "github": "",
       "link": "",
@@ -498,7 +510,7 @@
       "username": "tRACE",
       "country": "Russian",
       "flag": "RU",
-      "count": 2716,
+      "count": 2753,
       "twitter": "",
       "github": "",
       "link": "",
@@ -1163,6 +1175,18 @@
       "website": ""
     },
     {
+      "name": "jinjit",
+      "username": "",
+      "country": "Hebrew",
+      "flag": "IL",
+      "count": 637,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "",
+      "website": ""
+    },
+    {
       "name": "Tamás Trischler",
       "username": "trisi75",
       "country": "Hungarian",
@@ -1475,6 +1499,11 @@
       "percent": 63
     },
     {
+      "country": "Spanish, MX",
+      "flag": "MX",
+      "percent": 61
+    },
+    {
       "country": "Macedonian",
       "flag": "MK",
       "percent": 58
@@ -1483,11 +1512,6 @@
       "country": "Chinese Simplified",
       "flag": "CN",
       "percent": 51
-    },
-    {
-      "country": "Spanish, MX",
-      "flag": "MX",
-      "percent": 43
     },
     {
       "country": "Bengali",
@@ -1510,23 +1534,23 @@
       "percent": 26
     },
     {
+      "country": "Korean",
+      "flag": "KR",
+      "percent": 24
+    },
+    {
       "country": "Nynorsk",
       "flag": "NO",
       "percent": 23
     },
     {
-      "country": "Korean",
-      "flag": "KR",
-      "percent": 22
+      "country": "Thai",
+      "flag": "TH",
+      "percent": 21
     },
     {
       "country": "Albanian",
       "flag": "AL",
-      "percent": 21
-    },
-    {
-      "country": "Thai",
-      "flag": "TH",
       "percent": 21
     },
     {
