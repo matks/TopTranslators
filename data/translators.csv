@@ -2,8 +2,8 @@ User,Language,"Total Words",Rank,Category
 "Gabriel Teniță (ggedamed)",Romanian,98110,1,1
 "Alper Demir (alper-demir)",Turkish,46941,2,1
 dzuman,Vietnamese,45502,3,1
-"Yuji Sugimoto (bm-sugi)",Japanese,33979,4,1
-"Jesús Ruiz (jruiz)",Spanish,31387,5,1
+"Jesús Ruiz (jruiz)",Spanish,36941,4,1
+"Yuji Sugimoto (bm-sugi)",Japanese,34255,5,1
 "A Petapouca (petapouca)",Galician,27165,6,1
 Koral,Polish,21629,7,1
 "Enzo Ferrara (ferribbotte)",Italian,17687,8,2
@@ -18,7 +18,7 @@ eleazar,German,14496,13,2
 "Nicolas Zampieri (nickzampieri)","French, Canada",12770,17,2
 "Michael Dekker (mdekker)",Dutch,12092,18,2
 "Oriol Duarri (oduarri)",Catalan,11996,19,2
-"SeongHyeon Cho (jaymz9634)",Korean,11245,20,2
+"SeongHyeon Cho (jaymz9634)",Korean,11705,20,2
 "Cha (cafetango)","Chinese Traditional",9813,21,2
 "Yosef Esses Cohen (ppesses)","Spanish, Mexico",8857,22,2
 ondrej_pisa,Czech,7961,23,3
@@ -39,72 +39,74 @@ transmetent,Catalan,3846,37,4
 "Vilnis Dreimanis (marketings)",Latvian,3815,38,4
 "Hai Andre Boukris (arnevo)",Hebrew,3658,39,4
 "Mojtaba Malaekeh (mojtabamalaekeh)",Persian,3619,40,4
-"M. Mirena (mmirena)",Albanian,2906,41,4
-"Carlos Loyola Vásquez (carlosloyola14)","Spanish, Peru",2841,42,4
-"Ilyasov Ivan (tRACE)",Russian,2753,43,4
-"Mohammed Chakir (idchakirm5)",Arabic,2417,44,5
-maurizioag,"Spanish, Venezuela",2400,45,5
-"Gunnar Orn Thordarson (gunnarornthordarson)",Icelandic,2350,46,5
-"Daniel Valente (dgv)","Portuguese, Brazilian",2327,47,5
-"Csaba Mártha (csy)",Hungarian,2210,48,5
-"Saeed Sattar Beglou (saeedsb)",Persian,2123,49,5
-cloud_web,Georgian,2056,50,5
-gwaschier,German,2032,51,5
-"Dimitrios Karvounaris (kdimi)",German,1862,52,5
-schibulski,German,1854,53,5
-"Sagar Pokhrel (Hem) (geeksagar)",Nepali,1781,54,5
-anubis2702,Romanian,1680,55,5
-"Roger López (rogerlopz)","Spanish, Mexico",1672,56,5
-"Stanislav Yordanov (StanProg)",Bulgarian,1622,57,5
-"Antti Ojaniemi (scsise)",Finnish,1595,58,5
-CapitalX,Arabic,1547,59,5
-"Thang Luu (luuthang)",Vietnamese,1515,60,5
-Marme,Portuguese,1480,61,5
-"Eduardo Bonsi (ebonsi)","Portuguese, Brazilian",1471,62,5
-"Mads Oliver Jenssen (madsoliver)",Norwegian,1353,63,5
-caplat93,Romanian,1341,64,5
-"Erik Kraijenoord (erikkraijenoord)",Dutch,1332,65,5
-RogerWMM,Catalan,1297,66,5
-"Ezz El Dean Hashish (franko43rb)",Arabic,1280,67,5
-Bulldesign,Danish,1275,68,5
-"Tor Eirik Trandal (teitrand)",Norwegian,1274,69,5
-"Jorge Vargas (jorgevrgs)","Spanish, Colombia",1268,70,5
-PifyZ,French,1265,71,5
-lyoNick,Hebrew,1176,72,5
-"Junior Maciel (JuniorMaciel)","Portuguese, Brazilian",1133,73,5
-"Ákos Beke (akosbeke)",Hungarian,1125,74,5
-Tomo402,Slovak,1121,75,5
-"Daniele Manarin (cracker_pazzo)",Italian,1071,76,5
-jdperea59,"Spanish, Colombia",1029,77,5
-remark,Turkish,1019,78,5
-"Sidney Fernando (sidneyfernando89)","Portuguese, Brazilian",1006,79,5
-"Adam Janík (jmenujuseadam)",Czech,996,80,5
-bhargavlalo,Hindi,982,81,5
-"Lucas Vitale (shacker)",Spanish,922,82,5
-postbluecz,Czech,865,83,5
-nasimparsi,Persian,852,84,5
-tujiguoman,Galician,828,85,5
-"Gabriel Manea (wwwimagineataRO)",Romanian,817,86,5
-MauricioMontoya,"Spanish, El Salvador",777,87,5
-Alcoche,Spanish,755,88,5
-dehkka,"Portuguese, Brazilian",748,89,5
-hamidreza6620,Persian,709,90,5
-"Julio Jimenez (AnuncioUrbano)","Spanish, Mexico",706,91,5
-"Theodore Sfakianakis (irmaiden)",Greek,690,92,5
-"Long Vu Duc (longvu75)",Vietnamese,689,93,5
-"Huseyn Ismayilov (hismayilov)",Azerbaijani,687,94,5
-"Olcso Mobil Bolt (electromobil)",Persian,685,95,5
-"Bojanstven (bojanstven)","Serbian (Latin)",670,96,5
-tgferreira,Portuguese,656,97,5
-"Christian López (ChristianLopezGonzalez)",Spanish,645,98,5
-jinjit,Hebrew,637,99,5
-"Tamás Trischler (trisi75)",Hungarian,621,100,5
-"Lenny Obez (LennyObez)",French,607,101,5
-"Gytis Šk (gytis)",Lithuanian,597,102,5
-"Mohammad Sadegh Rategh (Rategh)",Persian,591,103,5
-"Norwegian_Rat (Izraelviz)","Norwegian Nynorsk",586,104,5
-rodrigojob,"Portuguese, Brazilian",575,105,5
-Browserwerk,German,542,106,5
-ftugrul,Turkish,529,107,5
-crowd-dyr,Danish,517,108,5
-"Josue Meyler Ponce Paredes (j_ponce)","Spanish, Peru",511,109,5
+"Morten Borg (mortenborg)",Danish,3370,41,4
+"M. Mirena (mmirena)",Albanian,2906,42,4
+"Carlos Loyola Vásquez (carlosloyola14)","Spanish, Peru",2841,43,4
+"Ilyasov Ivan (tRACE)",Russian,2761,44,4
+"Mohammed Chakir (idchakirm5)",Arabic,2417,45,5
+maurizioag,"Spanish, Venezuela",2400,46,5
+"Gunnar Orn Thordarson (gunnarornthordarson)",Icelandic,2350,47,5
+"Daniel Valente (dgv)","Portuguese, Brazilian",2327,48,5
+"Csaba Mártha (csy)",Hungarian,2210,49,5
+"Saeed Sattar Beglou (saeedsb)",Persian,2156,50,5
+cloud_web,Georgian,2056,51,5
+gwaschier,German,2032,52,5
+"Dimitrios Karvounaris (kdimi)",German,1862,53,5
+schibulski,German,1854,54,5
+"Sagar Pokhrel (Hem) (geeksagar)",Nepali,1781,55,5
+anubis2702,Romanian,1680,56,5
+"Roger López (rogerlopz)","Spanish, Mexico",1672,57,5
+"Stanislav Yordanov (StanProg)",Bulgarian,1622,58,5
+"Antti Ojaniemi (scsise)",Finnish,1595,59,5
+CapitalX,Arabic,1547,60,5
+"Thang Luu (luuthang)",Vietnamese,1515,61,5
+Marme,Portuguese,1480,62,5
+"Eduardo Bonsi (ebonsi)","Portuguese, Brazilian",1471,63,5
+"Mads Oliver Jenssen (madsoliver)",Norwegian,1353,64,5
+caplat93,Romanian,1341,65,5
+"Erik Kraijenoord (erikkraijenoord)",Dutch,1332,66,5
+RogerWMM,Catalan,1297,67,5
+"Ezz El Dean Hashish (franko43rb)",Arabic,1280,68,5
+Bulldesign,Danish,1275,69,5
+"Tor Eirik Trandal (teitrand)",Norwegian,1274,70,5
+"Jorge Vargas (jorgevrgs)","Spanish, Colombia",1268,71,5
+PifyZ,French,1265,72,5
+lyoNick,Hebrew,1176,73,5
+"Junior Maciel (JuniorMaciel)","Portuguese, Brazilian",1133,74,5
+"Ákos Beke (akosbeke)",Hungarian,1125,75,5
+Tomo402,Slovak,1121,76,5
+"Daniele Manarin (cracker_pazzo)",Italian,1071,77,5
+"Gabriel Manea (wwwimagineataRO)",Romanian,1065,78,5
+jdperea59,"Spanish, Colombia",1029,79,5
+remark,Turkish,1019,80,5
+"Sidney Fernando (sidneyfernando89)","Portuguese, Brazilian",1006,81,5
+"Adam Janík (jmenujuseadam)",Czech,996,82,5
+bhargavlalo,Hindi,982,83,5
+"Lucas Vitale (shacker)",Spanish,922,84,5
+jinjit,Hebrew,906,85,5
+postbluecz,Czech,865,86,5
+nasimparsi,Persian,852,87,5
+tujiguoman,Galician,828,88,5
+"Anouar Talidi (Anouar_Talidi)",Arabic,807,89,5
+MauricioMontoya,"Spanish, El Salvador",777,90,5
+Alcoche,Spanish,755,91,5
+dehkka,"Portuguese, Brazilian",748,92,5
+hamidreza6620,Persian,709,93,5
+"Julio Jimenez (AnuncioUrbano)","Spanish, Mexico",706,94,5
+"Theodore Sfakianakis (irmaiden)",Greek,690,95,5
+"Long Vu Duc (longvu75)",Vietnamese,689,96,5
+"Huseyn Ismayilov (hismayilov)",Azerbaijani,687,97,5
+"Olcso Mobil Bolt (electromobil)",Persian,685,98,5
+"Bojanstven (bojanstven)","Serbian (Latin)",670,99,5
+tgferreira,Portuguese,656,100,5
+"Christian López (ChristianLopezGonzalez)",Spanish,645,101,5
+"Tamás Trischler (trisi75)",Hungarian,621,102,5
+"Lenny Obez (LennyObez)",French,607,103,5
+"Gytis Šk (gytis)",Lithuanian,597,104,5
+"Mohammad Sadegh Rategh (Rategh)",Persian,591,105,5
+"Norwegian_Rat (Izraelviz)","Norwegian Nynorsk",586,106,5
+rodrigojob,"Portuguese, Brazilian",575,107,5
+Browserwerk,German,542,108,5
+ftugrul,Turkish,529,109,5
+crowd-dyr,Danish,517,110,5
+"Josue Meyler Ponce Paredes (j_ponce)","Spanish, Peru",511,111,5
