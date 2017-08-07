@@ -1,5 +1,5 @@
 {
-  "date": "August 01, 2017",
+  "date": "August 07, 2017",
   "translators": [
     {
       "name": "Gabriel Tenita",
@@ -17,7 +17,7 @@
       "username": "jruiz",
       "country": "Spanish",
       "flag": "ES",
-      "count": 72025,
+      "count": 75029,
       "twitter": "",
       "github": "",
       "link": "",
@@ -197,7 +197,7 @@
       "username": "nickzampieri",
       "country": "French, CA",
       "flag": "CA",
-      "count": 12770,
+      "count": 13399,
       "twitter": "",
       "github": "",
       "link": "",
@@ -233,7 +233,7 @@
       "username": "cafetango",
       "country": "Chinese Traditional",
       "flag": "TW",
-      "count": 10745,
+      "count": 11246,
       "twitter": "",
       "github": "",
       "link": "",
@@ -245,7 +245,7 @@
       "username": "ppesses",
       "country": "Spanish, MX",
       "flag": "MX",
-      "count": 8872,
+      "count": 10214,
       "twitter": "",
       "github": "",
       "link": "",
@@ -1042,7 +1042,7 @@
       "username": "gerardas",
       "country": "Lithuanian",
       "flag": "LT",
-      "count": 933,
+      "count": 956,
       "twitter": "",
       "github": "",
       "link": "",
@@ -1490,14 +1490,14 @@
       "percent": 99
     },
     {
-      "country": "Persian",
-      "flag": "IR",
+      "country": "French, CA",
+      "flag": "CA",
       "percent": 99
     },
     {
-      "country": "Norwegian",
-      "flag": "NO",
-      "percent": 97
+      "country": "Persian",
+      "flag": "IR",
+      "percent": 99
     },
     {
       "country": "Lithuanian",
@@ -1505,8 +1505,8 @@
       "percent": 97
     },
     {
-      "country": "French, CA",
-      "flag": "CA",
+      "country": "Norwegian",
+      "flag": "NO",
       "percent": 97
     },
     {
@@ -1525,6 +1525,11 @@
       "percent": 91
     },
     {
+      "country": "Estonian",
+      "flag": "EE",
+      "percent": 90
+    },
+    {
       "country": "Vietnamese",
       "flag": "VN",
       "percent": 90
@@ -1535,11 +1540,6 @@
       "percent": 90
     },
     {
-      "country": "Estonian",
-      "flag": "EE",
-      "percent": 90
-    },
-    {
       "country": "Japanese",
       "flag": "JP",
       "percent": 84
@@ -1547,7 +1547,7 @@
     {
       "country": "Chinese Traditional",
       "flag": "TW",
-      "percent": 72
+      "percent": 73
     },
     {
       "country": "Hebrew",
@@ -1575,14 +1575,14 @@
       "percent": 53
     },
     {
+      "country": "Spanish, MX",
+      "flag": "MX",
+      "percent": 51
+    },
+    {
       "country": "Chinese Simplified",
       "flag": "CN",
       "percent": 50
-    },
-    {
-      "country": "Spanish, MX",
-      "flag": "MX",
-      "percent": 49
     },
     {
       "country": "Bengali",
