@@ -1,5 +1,5 @@
 {
-  "date": "August 28, 2017",
+  "date": "September 04, 2017",
   "translators": [
     {
       "name": "Gabriel Tenita",
@@ -53,7 +53,7 @@
       "username": "bm-sugi",
       "country": "Japanese",
       "flag": "JP",
-      "count": 36199,
+      "count": 36999,
       "twitter": "",
       "github": "",
       "link": "",
@@ -89,7 +89,7 @@
       "username": "jaymz9634",
       "country": "Korean",
       "flag": "KR",
-      "count": 19125,
+      "count": 19587,
       "twitter": "",
       "github": "",
       "link": "",
@@ -149,7 +149,7 @@
       "username": "monikaraciunaite",
       "country": "Lithuanian",
       "flag": "LT",
-      "count": 16949,
+      "count": 16964,
       "twitter": "",
       "github": "monikaraciunaite",
       "link": "",
@@ -457,6 +457,18 @@
       "website": ""
     },
     {
+      "name": "Daniel Valente",
+      "username": "dgv",
+      "country": "Portuguese, BR",
+      "flag": "BR",
+      "count": 3604,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/c729571b1e223ac32cd99abd737c873e_l.jpg\t",
+      "website": ""
+    },
+    {
       "name": "Luis Sanchez",
       "username": "sanchezluys",
       "country": "Spanish, VE",
@@ -517,15 +529,15 @@
       "website": ""
     },
     {
-      "name": "Daniel Valente",
-      "username": "dgv",
-      "country": "Portuguese, BR",
-      "flag": "BR",
-      "count": 2600,
+      "name": "gwaschier",
+      "username": "",
+      "country": "German",
+      "flag": "DE",
+      "count": 2417,
       "twitter": "",
       "github": "",
       "link": "",
-      "avatar": "https://crowdin-user-avatar.s3.amazonaws.com/c729571b1e223ac32cd99abd737c873e_l.jpg\t",
+      "avatar": "https://www.gravatar.com/avatar/9149f6157ab51d3eba7e76dac93eec3e?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
       "website": ""
     },
     {
@@ -538,18 +550,6 @@
       "github": "",
       "link": "",
       "avatar": "https://dvsyjmyregmxp.cloudfront.net/avatar/13283009/large/8d6838afc7206bacf7dbdab4172babf8.jpg",
-      "website": ""
-    },
-    {
-      "name": "gwaschier",
-      "username": "",
-      "country": "German",
-      "flag": "DE",
-      "count": 2417,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/9149f6157ab51d3eba7e76dac93eec3e?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
       "website": ""
     },
     {
@@ -841,6 +841,18 @@
       "website": ""
     },
     {
+      "name": "Jorge Vargas",
+      "username": "jorgevrgs",
+      "country": "Spanish, CO",
+      "flag": "CO",
+      "count": 1295,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/08ff2827ec083b559f7e42cfd83f6b03?s=150\t",
+      "website": ""
+    },
+    {
       "name": "Ezz El Dean Hashish",
       "username": "franko43rb",
       "country": "Arabic",
@@ -877,18 +889,6 @@
       "website": ""
     },
     {
-      "name": "Jorge Vargas",
-      "username": "jorgevrgs",
-      "country": "Spanish, CO",
-      "flag": "CO",
-      "count": 1268,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/08ff2827ec083b559f7e42cfd83f6b03?s=150\t",
-      "website": ""
-    },
-    {
       "name": "PifyZ",
       "username": "",
       "country": "French",
@@ -913,6 +913,18 @@
       "website": ""
     },
     {
+      "name": "Gerardas",
+      "username": "gerardas",
+      "country": "Lithuanian",
+      "flag": "LT",
+      "count": 1174,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/89c0bfa5bc25616c37c9bcb3c14f058b?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
+      "website": ""
+    },
+    {
       "name": "amzsteven",
       "username": "",
       "country": "Thai",
@@ -922,18 +934,6 @@
       "github": "",
       "link": "",
       "avatar": "https://www.gravatar.com/avatar/78be5307a94c431f74decef19ce11dba?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
-      "website": ""
-    },
-    {
-      "name": "Gerardas",
-      "username": "gerardas",
-      "country": "Lithuanian",
-      "flag": "LT",
-      "count": 1158,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/89c0bfa5bc25616c37c9bcb3c14f058b?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
       "website": ""
     },
     {
@@ -1101,6 +1101,17 @@
       "link": "",
       "avatar": "",
       "website": ""
+    },
+    {
+      "name": "Anna4",
+      "username": "",
+      "country": "Georgian",
+      "flag": "GE",
+      "count": 912,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": ""
     },
     {
       "name": "VPuks",
@@ -1574,7 +1585,7 @@
     {
       "country": "Japanese",
       "flag": "JP",
-      "percent": 87
+      "percent": 89
     },
     {
       "country": "Chinese Traditional",
@@ -1617,13 +1628,13 @@
       "percent": 50
     },
     {
-      "country": "Bengali",
-      "flag": "BD",
-      "percent": 37
-    },
-    {
       "country": "Korean",
       "flag": "KR",
+      "percent": 38
+    },
+    {
+      "country": "Bengali",
+      "flag": "BD",
       "percent": 37
     },
     {
