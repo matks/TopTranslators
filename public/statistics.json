@@ -1,5 +1,5 @@
 {
-  "date": "October 04, 2017",
+  "date": "October 16, 2017",
   "translators": [
     {
       "name": "Gabriel Tenita",
@@ -17,7 +17,7 @@
       "username": "jruiz",
       "country": "Spanish",
       "flag": "ES",
-      "count": 75835,
+      "count": 75981,
       "twitter": "",
       "github": "",
       "link": "",
@@ -77,7 +77,7 @@
       "username": "jaymz9634",
       "country": "Korean",
       "flag": "KR",
-      "count": 22940,
+      "count": 24887,
       "twitter": "",
       "github": "",
       "link": "",
@@ -221,7 +221,7 @@
       "username": "cafetango",
       "country": "Chinese Traditional",
       "flag": "TW",
-      "count": 11430,
+      "count": 11674,
       "twitter": "",
       "github": "",
       "link": "",
@@ -293,7 +293,7 @@
       "username": "megashopba",
       "country": "Slovak",
       "flag": "SK",
-      "count": 7428,
+      "count": 7429,
       "twitter": "",
       "github": "",
       "link": "",
@@ -421,6 +421,18 @@
       "website": ""
     },
     {
+      "name": "M. Mirena",
+      "username": "mmirena",
+      "country": "Albanian",
+      "flag": "AL",
+      "count": 3938,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": "https://www.gravatar.com/avatar/e381b3a3459656626fe9a0a63180a3c9?s=150\t",
+      "website": ""
+    },
+    {
       "name": "transmetent",
       "username": "",
       "country": "Catalan",
@@ -485,7 +497,7 @@
       "username": "mortenborg",
       "country": "Danish",
       "flag": "DK",
-      "count": 3370,
+      "count": 3384,
       "twitter": "",
       "github": "",
       "link": "",
@@ -502,18 +514,6 @@
       "github": "",
       "link": "",
       "avatar": "https://www.gravatar.com/avatar/d1c8449aa9913eb5cd486fa118855d73?s=170&d=https%3A%2F%2Fcrowdin.com%2Fimages%2Fuser-picture.png",
-      "website": ""
-    },
-    {
-      "name": "M. Mirena",
-      "username": "mmirena",
-      "country": "Albanian",
-      "flag": "AL",
-      "count": 3046,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": "https://www.gravatar.com/avatar/e381b3a3459656626fe9a0a63180a3c9?s=150\t",
       "website": ""
     },
     {
@@ -757,6 +757,17 @@
       "website": ""
     },
     {
+      "name": "xanvieiro",
+      "username": "",
+      "country": "Galician",
+      "flag": "GL",
+      "count": 1474,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": ""
+    },
+    {
       "name": "Eduardo Bonsi",
       "username": "ebonsi",
       "country": "Portuguese, BR",
@@ -829,17 +840,6 @@
       "website": ""
     },
     {
-      "name": "xanvieiro",
-      "username": "",
-      "country": "Galician",
-      "flag": "GL",
-      "count": 1318,
-      "twitter": "",
-      "github": "",
-      "link": "",
-      "avatar": ""
-    },
-    {
       "name": "Gabriel Manea",
       "username": "wwwimagineataRO",
       "country": "Romanian",
@@ -868,7 +868,7 @@
       "username": "gerardas",
       "country": "Lithuanian",
       "flag": "LT",
-      "count": 1280,
+      "count": 1283,
       "twitter": "",
       "github": "",
       "link": "",
@@ -928,7 +928,7 @@
       "username": "",
       "country": "Hebrew",
       "flag": "IL",
-      "count": 1193,
+      "count": 1256,
       "twitter": "",
       "github": "",
       "link": "",
@@ -1150,6 +1150,17 @@
       "website": ""
     },
     {
+      "name": "hakon_mbr",
+      "username": "",
+      "country": "Icelandic",
+      "flag": "IS",
+      "count": 846,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": ""
+    },
+    {
       "name": "tujiguoman",
       "username": "",
       "country": "Galician",
@@ -1303,6 +1314,17 @@
       "link": "",
       "avatar": "https://dvsyjmyregmxp.cloudfront.net/avatar/13328585/large/2ab9115d901fb017996ef61c724bcfcf.png",
       "website": ""
+    },
+    {
+      "name": "infoseek",
+      "username": "",
+      "country": "Chinese Simplified",
+      "flag": "CN",
+      "count": 663,
+      "twitter": "",
+      "github": "",
+      "link": "",
+      "avatar": ""
     },
     {
       "name": "tgferreira",
@@ -1636,7 +1658,7 @@
     {
       "country": "Chinese Traditional",
       "flag": "TW",
-      "percent": 73
+      "percent": 74
     },
     {
       "country": "Hebrew",
@@ -1646,7 +1668,7 @@
     {
       "country": "Galician",
       "flag": "GL",
-      "percent": 66
+      "percent": 67
     },
     {
       "country": "Spanish, CO",
@@ -1676,7 +1698,7 @@
     {
       "country": "Korean",
       "flag": "KR",
-      "percent": 42
+      "percent": 43
     },
     {
       "country": "Bengali",
@@ -1704,14 +1726,14 @@
       "percent": 24
     },
     {
-      "country": "Nynorsk",
-      "flag": "NO",
+      "country": "Albanian",
+      "flag": "AL",
       "percent": 23
     },
     {
-      "country": "Albanian",
-      "flag": "AL",
-      "percent": 21
+      "country": "Nynorsk",
+      "flag": "NO",
+      "percent": 23
     },
     {
       "country": "Spanish, VE",
@@ -1761,7 +1783,7 @@
     {
       "country": "Icelandic",
       "flag": "IS",
-      "percent": 4
+      "percent": 5
     },
     {
       "country": "Breton",
