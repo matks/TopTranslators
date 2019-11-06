@@ -1,40 +1,40 @@
 Romanian,100,DONE
-English,100,DONE
-Greek,100,DONE
-French,100,DONE
-Swedish,100,DONE
-Persian,100,DONE
-Spanish,100,DONE
 "Portuguese, Brazilian",100,DONE
-Italian,100,DONE
-Latvian,100,DONE
+English,100,DONE
+Swedish,100,DONE
+Spanish,100,DONE
 Slovak,100,DONE
+Slovenian,100,DONE
+French,100,DONE
+Greek,100,DONE
+Italian,100,DONE
+Norwegian,100,DONE
+Lithuanian,100,DONE
+Persian,100,DONE
 Czech,100,DONE
+Polish,100,DONE
 Dutch,100,DONE
-Lithuanian,99,"TOP 10"
-Polish,99,"TOP 10"
-Danish,99,"TOP 10"
+Latvian,100,DONE
 Korean,99,"TOP 10"
+Danish,99,"TOP 10"
 Russian,98,"TOP 10"
 German,97,"TOP 10"
 Estonian,97,"TOP 10"
-Ukrainian,96,"TOP 10"
+Arabic,96,"TOP 10"
 Turkish,96,"TOP 10"
+Ukrainian,96,"TOP 10"
 Serbian,96,"TOP 10"
-"Chinese Simplified",95,
-Portuguese,94,
-Arabic,94,
-Catalan,94,
-Slovenian,94,
-Bulgarian,94,
+"Chinese Simplified",95,"TOP 10"
+Bulgarian,95,
+Catalan,95,
+Portuguese,95,
 Galician,94,
-"Spanish, Argentina",93,
+Indonesian,94,
+Croatian,94,
 "French, Canada",93,
 Macedonian,93,
-Croatian,93,
-Indonesian,93,
+"Spanish, Argentina",93,
 Finnish,92,
-Norwegian,91,
 Vietnamese,91,
 Hungarian,89,
 "Chinese Traditional",87,
@@ -45,11 +45,11 @@ Japanese,57,
 "Spanish, Venezuela",48,
 Bengali,40,
 Bosnian,33,
-Albanian,29,
 Armenian,29,
+Albanian,29,
 Malay,28,
-Thai,22,
 "Norwegian Nynorsk",22,
+Thai,22,
 Azerbaijani,13,
 Basque,12,
 Georgian,11,
@@ -57,14 +57,13 @@ Tatar,10,
 Lao,10,
 "Spanish, Peru",8,
 Uyghur,7,
+Malagasy,7,
 Hindi,7,
-Malagasy,5,
+"Urdu (Pakistan)",4,
 Icelandic,4,
 Sinhala,4,
-"Urdu (Pakistan)",4,
-"German, Luxembourg",3,
-Tamil,3,
 Mongolian,3,
+Tamil,3,
+"German, Luxembourg",3,
 "English, United Kingdom",2,
-Nepali,1,
 Swahili,0,
