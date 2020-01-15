@@ -124,15 +124,15 @@ In order to facilitate the application's build (and it's deployment), we've work
 
 It realies heavily on the [docker multi-stage](https://docs.docker.com/develop/develop-images/multistage-build/) feature, in order to provide a clean image for the run.
 
-So, to *build* the image: 
+So, to **build** the image: 
 
 ``` 
 docker build --no-cache --build-arg CROWDIN_TOKEN={{CROWDINAPIKEY}} -t top-translators -f Dockerfile .
 ```
 
-Where *{{CROWDINAPIKEY}}* is your crowdin key or token, used to retrieve some translators and languages data.
+Where **{{CROWDINAPIKEY}}** is your crowdin key or token, used to retrieve some translators and languages data.
 
-Then, to *run* it and access it locally:
+Then, to **run** the image and access it locally:
 
 ```
 docker run -p 80:80 top-translators
