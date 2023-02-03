@@ -1,0 +1,76 @@
+name: Build & Deploy
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+  release:
+    types: [released]
+  schedule:
+    - cron: '0 6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      ENV_CROWDIN_API_KEY: ${{ secrets.ENV_CROWDIN_API_KEY }}
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@prod
+
+      ## Need packages
+      # curl / jq / csv / zip
+
+      - name: Fetch Translations
+        run: curl "https://api.crowdin.com/api/project/prestashop-official/status?key=${ENV_CROWDIN_API_KEY}&json" | jq -r '.[] | [.name, .approved_progress]| @csv' > ./data/languages.csv
+
+      - name: Fetch Translators Hash
+        run: curl "https://api.crowdin.com/api/project/prestashop-official/reports/top-members/export?key=${ENV_CROWDIN_API_KEY}&json&date_from=2016-01-01&format=csv" | jq -r .hash > translators_hash.csv
+
+      - name: Fetch Translators
+        run: curl "https://api.crowdin.com/api/project/prestashop-official/reports/top-members/download?key=${ENV_CROWDIN_API_KEY}&hash=$(cat translators_hash.csv)" >> data/translators.csv
+
+      - name: Remove Translators Hash file
+        run: rm translators_hash.csv
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: 8
+            
+      - name: Cache node_modules 📦
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ubuntu-latest-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ubuntu-latest-node-
+
+      - name: Install dependencies 💚
+        working-directory: csv_to_json
+        run: npm install
+
+      - name: Generate statistics.json
+        working-directory: csv_to_json
+        run: npm start
+
+      - name: Install dependencies 💚
+        working-directory: front
+        run: npm install
+
+      - name: Generate statistics.json
+        working-directory: front
+        run: npm run build
+        
+      - name: Write CNAME file
+        run: echo 'translators.prestashop-project.org' > ./public/CNAME
+
+      - name: Deploy 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.event_name == 'release' || github.event_name == 'schedule' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: translators.prestashop-project.org
