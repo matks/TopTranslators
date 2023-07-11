@@ -1,4 +1,5 @@
 node_modules/
 front/public/
-.DS_Store
-npm-debug.log
+
+## Build files
+translators_hash.csv
