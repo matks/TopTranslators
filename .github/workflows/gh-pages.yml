@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@prod
+        uses: actions/checkout@v3
 
       ## Need packages
       # curl / jq / csv / zip
@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-node@v2.1.2
         with:
           node-version: 8
-            
+
       - name: Cache node_modules 📦
         uses: actions/cache@v2
         with:
@@ -63,7 +63,7 @@ jobs:
       - name: Generate statistics.json
         working-directory: front
         run: npm run build
-        
+
       - name: Write CNAME file
         run: echo 'translators.prestashop-project.org' > ./public/CNAME
 
