@@ -56,14 +56,6 @@ jobs:
         working-directory: csv_to_json
         run: npm start
 
-      - name: Install dependencies 💚
-        working-directory: front
-        run: npm install
-
-      - name: Generate statistics.json
-        working-directory: front
-        run: npm run build
-
       - name: Write CNAME file
         run: echo 'translators.prestashop-project.org' > ./public/CNAME
 
