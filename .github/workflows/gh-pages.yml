@@ -18,6 +18,9 @@ permissions:
 
 jobs:
   build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     env:
       ENV_CROWDIN_API_KEY: ${{ secrets.ENV_CROWDIN_API_KEY }}
@@ -65,12 +68,6 @@ jobs:
       - name: Write CNAME file
         run: echo 'translators.prestashop-project.org' > ./public/CNAME
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Pages
