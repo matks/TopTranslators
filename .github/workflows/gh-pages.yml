@@ -68,8 +68,6 @@ jobs:
       - name: Write CNAME file
         run: echo 'translators.prestashop-project.org' > ./public/CNAME
 
-      - name: Checkout
-        uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
