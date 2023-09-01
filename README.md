@@ -6,6 +6,9 @@ Top Translators tribute page
 
 This website presents multiple informations about the translators project for PrestaShop: translators ranking, languages completion rates...
 
+> [!WARNING]
+> This project entered Degraded Mode. The building of the static files is currently paused, the website is running hardcoded assets. See [issue #65](https://github.com/PrestaShop/TopTranslators/issues/65).
+
 ## Rendering the site locally
 
 The website source code belongs in `/front` directory.
