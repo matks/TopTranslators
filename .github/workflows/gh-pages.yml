@@ -36,9 +36,9 @@ jobs:
         run: rm translators_hash.csv
 
       - name: Setup node env 🏗
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v3
         with:
-          node-version: 8
+          node-version: 14
 
       - name: Cache node_modules 📦
         uses: actions/cache@v2
@@ -55,14 +55,6 @@ jobs:
       - name: Generate statistics.json
         working-directory: csv_to_json
         run: npm start
-
-      - name: Install dependencies 💚
-        working-directory: front
-        run: npm install
-
-      - name: Generate statistics.json
-        working-directory: front
-        run: npm run build
 
       - name: Write CNAME file
         run: echo 'translators.prestashop-project.org' > ./public/CNAME
