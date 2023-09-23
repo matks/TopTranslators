@@ -1,14 +1,17 @@
 <script setup lang="ts">
-import TranslatorsStep from './TranslatorsStep.vue'
+import TranslatorsStep from './TranslatorsStep.vue';
 import configuration from '@/settings';
-import type { Translator, TranslatorsStepInfo } from '@/models/types'
+import type { Translator, TranslatorsStepInfo } from '@/models/types';
 import { computed, ref } from 'vue';
 
-type TranslatorsStepsType = { step: TranslatorsStepInfo, translators: Translator[] }
+type TranslatorsStepsType = {
+  step: TranslatorsStepInfo;
+  translators: Translator[];
+};
 
 const props = defineProps<{
-  translators: Translator[]
-}>()
+  translators: Translator[];
+}>();
 
 const translatorsSteps = computed<TranslatorsStepsType[]>(() => {
   //console.log(props.translators.slice(10))
@@ -29,14 +32,17 @@ const translatorsSteps = computed<TranslatorsStepsType[]>(() => {
   });
   return result;
 });
-
 </script>
 
 <template>
   <div id="all-translators">
     <div class="container">
       <div class="row">
-        <TranslatorsStep v-for="translatorsStep in translatorsSteps" :step="translatorsStep.step" :translators="translatorsStep.translators" />
+        <TranslatorsStep
+          v-for="translatorsStep in translatorsSteps"
+          :step="translatorsStep.step"
+          :translators="translatorsStep.translators"
+        />
       </div>
     </div>
   </div>

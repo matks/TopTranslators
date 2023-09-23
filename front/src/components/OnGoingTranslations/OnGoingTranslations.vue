@@ -7,15 +7,18 @@ import type { Language } from '@/models/types';
 import { computed, ref } from 'vue';
 
 const props = defineProps<{
-  languages: Language[]
-}>()
+  languages: Language[];
+}>();
 
-const unfinished = computed(() => props.languages.filter(l => l.percent !== 100));
+const unfinished = computed(() =>
+  props.languages.filter((l) => l.percent !== 100),
+);
 const top1to10 = computed(() => unfinished.value.slice(0, 10));
 const top11to20 = computed(() => unfinished.value.slice(10, 20));
 const others = computed(() => unfinished.value.slice(20));
-const finished = computed(() => props.languages.filter(l => l.percent === 100));
-
+const finished = computed(() =>
+  props.languages.filter((l) => l.percent === 100),
+);
 </script>
 <template>
   <div class="row main-content">

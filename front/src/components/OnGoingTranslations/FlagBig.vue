@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import type { Language} from '@/models/types'
+import type { Language } from '@/models/types';
 
 const props = defineProps<{
-  data: Language
-}>()
+  data: Language;
+}>();
 const number = computed(() => String(props.data.number).padStart(2, '0'));
 </script>
 

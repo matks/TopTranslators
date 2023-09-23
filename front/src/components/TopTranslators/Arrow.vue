@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps<{
-  counts: string[]
-}>()
+  counts: string[];
+}>();
 </script>
 
 <template>

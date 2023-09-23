@@ -1,4 +1,7 @@
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,7 +15,9 @@ h1 {
   }
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   letter-spacing: rem(0.2px);
   padding: rem(42px) 0;
 

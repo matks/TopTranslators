@@ -1,7 +1,7 @@
 #arrow {
   background-color: #f100a0;
-  background-image: -webkit-linear-gradient(-503deg,#f100a0,#23b9d6);
-  background-image: linear-gradient(233deg,#f100a0,#23b9d6);
+  background-image: -webkit-linear-gradient(-503deg, #f100a0, #23b9d6);
+  background-image: linear-gradient(233deg, #f100a0, #23b9d6);
   position: relative;
   height: rem(1000px);
 
@@ -29,7 +29,8 @@
     width: 100%;
   }
 
-  .count, .words {
+  .count,
+  .words {
     color: #fff;
   }
   .count {
@@ -43,7 +44,7 @@
   &:after {
     position: absolute;
     z-index: 1;
-    content: " ";
+    content: ' ';
     height: 100%;
     width: 50%;
     top: 0;
@@ -60,7 +61,7 @@
   .date {
     margin-bottom: rem(23px);
     color: #797979;
-    letter-spacing: rem(.2px);
+    letter-spacing: rem(0.2px);
     font-size: rem(14px);
 
     strong {
@@ -96,7 +97,8 @@ $color-traveler: #b29cd8;
       margin-top: rem(10px);
     }
 
-    .info, .username {
+    .info,
+    .username {
       a {
         color: #000;
         text-decoration: underline;
@@ -134,7 +136,7 @@ $color-traveler: #b29cd8;
   &:after {
     clear: both;
     display: block;
-    content: " ";
+    content: ' ';
     height: 0;
   }
 
@@ -209,7 +211,6 @@ $color-traveler: #b29cd8;
 
 .right-column {
   > .top-contributor {
-
     &:first-child {
       margin-top: rem(118px);
     }
@@ -262,9 +263,34 @@ $color-traveler: #b29cd8;
     margin-top: rem(30px);
   }
 
-  .pioneer { background: $color-pionner; .position { color: $color-pionner; } }
-  .explorer { background: $color-explorer; .position { color: $color-explorer; } }
-  .adventurer { background: $color-adventurer; .position { color: $color-adventurer; } }
-  .backpacker { background: $color-backpacker; .position { color: $color-backpacker; } }
-  .traveler { background: $color-traveler; .position { color: $color-traveler; } }
+  .pioneer {
+    background: $color-pionner;
+    .position {
+      color: $color-pionner;
+    }
+  }
+  .explorer {
+    background: $color-explorer;
+    .position {
+      color: $color-explorer;
+    }
+  }
+  .adventurer {
+    background: $color-adventurer;
+    .position {
+      color: $color-adventurer;
+    }
+  }
+  .backpacker {
+    background: $color-backpacker;
+    .position {
+      color: $color-backpacker;
+    }
+  }
+  .traveler {
+    background: $color-traveler;
+    .position {
+      color: $color-traveler;
+    }
+  }
 }

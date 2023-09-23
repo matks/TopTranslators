@@ -11,9 +11,17 @@
 
     > .value {
       height: 100%;
-      background-color: rgba(35,184,214,.6);
-      background-image: -webkit-linear-gradient(left,rgba(35,184,214,.6),$brand-info);
-      background-image: linear-gradient(90deg,rgba(35,184,214,.6),$brand-info);
+      background-color: rgba(35, 184, 214, 0.6);
+      background-image: -webkit-linear-gradient(
+        left,
+        rgba(35, 184, 214, 0.6),
+        $brand-info
+      );
+      background-image: linear-gradient(
+        90deg,
+        rgba(35, 184, 214, 0.6),
+        $brand-info
+      );
       border-radius: rem(4px);
     }
   }
@@ -57,7 +65,8 @@
   @include progress;
 }
 
-.small-flag, .full-flag {
+.small-flag,
+.full-flag {
   margin-top: rem(31px);
 
   > img {

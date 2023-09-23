@@ -2,7 +2,11 @@ header {
   .gradient {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba($brand-primary, .75), rgba(#25b9d7, .75));
+    background-image: linear-gradient(
+      to bottom,
+      rgba($brand-primary, 0.75),
+      rgba(#25b9d7, 0.75)
+    );
   }
 
   height: rem(520px);

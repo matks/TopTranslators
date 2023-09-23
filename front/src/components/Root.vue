@@ -14,7 +14,7 @@ const compareCount = (a: Translator, b: Translator) => {
     return 1;
   }
   return 0;
-}
+};
 
 const comparePercent = (a: Language, b: Language) => {
   if (a.percent > b.percent) {
@@ -24,13 +24,15 @@ const comparePercent = (a: Language, b: Language) => {
     return 1;
   }
   return 0;
-}
+};
 
 function mapData(data: Statics) {
   data.translators.sort(compareCount);
   data.translators.forEach((value, index) => {
     value.number = index + 1;
-    value.textCount = value.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+    value.textCount = value.count
+      .toString()
+      .replace(/\B(?=(\d{3})+(?!\d))/g, ',');
   });
 
   data.languages.sort(comparePercent);
@@ -44,11 +46,9 @@ function mapData(data: Statics) {
   return data;
 }
 
-
 fetch('statistics.json')
-  .then(response => response.json())
-  .then(json => data.value = mapData(json))
-
+  .then((response) => response.json())
+  .then((json) => (data.value = mapData(json)));
 </script>
 
 <template>
@@ -57,7 +57,11 @@ fetch('statistics.json')
     <div class="row">
       <div class="col-md-10 text-md-center transition">
         <p class="white-title">Join our community of contributors</p>
-        <a href="https://crowdin.com/project/prestashop-official" class="btn btn-primary">Translate now</a>
+        <a
+          href="https://crowdin.com/project/prestashop-official"
+          class="btn btn-primary"
+          >Translate now</a
+        >
       </div>
     </div>
     <OnGoingTranslations :languages="data.languages" />

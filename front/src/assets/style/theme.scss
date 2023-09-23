@@ -1,4 +1,4 @@
-@import "util";
+@import 'util';
 
 $grid-columns: 10;
 
@@ -9,10 +9,10 @@ $container-max-widths: (
   sm: rem(780px),
   md: rem(782px),
   lg: rem(784px),
-  xl: rem(786px)
+  xl: rem(786px),
 );
 
-@import "/node_modules/bootstrap/scss/bootstrap";
+@import '/node_modules/bootstrap/scss/bootstrap';
 
 @font-face {
   font-family: 'MontserratLight';

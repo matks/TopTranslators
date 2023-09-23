@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import FlagBig from './FlagBig.vue';
-import {type Language} from '@/models/types'
+import { type Language } from '@/models/types';
 
 defineProps<{
-  languages: Language[],
-}>()
+  languages: Language[];
+}>();
 </script>
 
 <template>

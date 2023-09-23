@@ -4,8 +4,8 @@ import AllTranslators from './AllTranslators.vue';
 import SeeMore from '../SeeMore.vue';
 import type { Statics } from '@/models/types';
 const props = defineProps<{
-  data: Statics
-}>()
+  data: Statics;
+}>();
 </script>
 
 <template>
