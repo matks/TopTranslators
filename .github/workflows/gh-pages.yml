@@ -65,7 +65,7 @@ jobs:
         run: npm start
 
       - name: Write CNAME file
-        run: echo 'translators.prestashop-project.org' > ./public/CNAME
+        run: echo 'translators.prestashop-project.org' > ./dist/CNAME
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -73,7 +73,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: './public'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
