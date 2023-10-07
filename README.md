@@ -6,9 +6,6 @@ Top Translators tribute page
 
 This website presents multiple informations about the translators project for PrestaShop: translators ranking, languages completion rates...
 
-> [!WARNING]
-> This project entered Degraded Mode. The building of the static files is currently paused, the website is running hardcoded assets. See [issue #65](https://github.com/PrestaShop/TopTranslators/issues/65).
-
 ## Rendering the site locally
 
 The website source code belongs in `/front` directory.
@@ -21,7 +18,7 @@ The website source code belongs in `/front` directory.
    ``` 
    npm run build
    ```
-4. You can either build the static files with `npm run build` or render it continuously for local development with `npm run watch`
+4. You can either build the static files with `npm run build` or render it continuously for local development with `npm run dev`
 
 5. Browse the directory `/public` to render the website. It will use the data from the `statistics.json` file at root of `/public` directory.
 
