@@ -1,5 +1,5 @@
 node_modules/
-front/public/
+front/dist/
 
 ## Build files
 translators_hash.csv
