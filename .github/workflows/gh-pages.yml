@@ -64,6 +64,9 @@ jobs:
         working-directory: csv_to_json
         run: npm start
 
+      - name: Write CNAME file
+        run: echo 'translators.prestashop-project.org' > ./public/CNAME
+
       - name: Install website dependencies
         working-directory: front
         run: npm install
