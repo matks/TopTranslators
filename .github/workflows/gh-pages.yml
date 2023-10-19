@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       ## Need packages
       # curl / jq / csv / zip
@@ -46,7 +46,7 @@ jobs:
       - name: Setup node env 🏗
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 20
 
       - name: Cache node_modules 📦
         uses: actions/cache@v2
@@ -64,8 +64,13 @@ jobs:
         working-directory: csv_to_json
         run: npm start
 
-      - name: Write CNAME file
-        run: echo 'translators.prestashop-project.org' > ./public/CNAME
+      - name: Install website dependencies
+        working-directory: front
+        run: npm install
+
+      - name: Generate static website files
+        working-directory: front
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
