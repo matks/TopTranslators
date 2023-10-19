@@ -31,13 +31,13 @@ jobs:
       ## Need packages
       # curl / jq / csv / zip
 
-      - name: Fetch Translations
+      - name: Fetch Translations raw data
         run: curl "https://api.crowdin.com/api/project/prestashop-official/status?key=${ENV_CROWDIN_API_KEY}&json" | jq -r '.[] | [.name, .approved_progress]| @csv' > ./data/languages.csv
 
-      - name: Fetch Translators Hash
+      - name: Fetch Translators Hash raw data
         run: curl "https://api.crowdin.com/api/project/prestashop-official/reports/top-members/export?key=${ENV_CROWDIN_API_KEY}&json&date_from=2016-01-01&format=csv" | jq -r .hash > translators_hash.csv
 
-      - name: Fetch Translators
+      - name: Fetch Translators raw data
         run: curl "https://api.crowdin.com/api/project/prestashop-official/reports/top-members/download?key=${ENV_CROWDIN_API_KEY}&hash=$(cat translators_hash.csv)" >> data/translators.csv
 
       - name: Remove Translators Hash file
@@ -56,24 +56,24 @@ jobs:
           restore-keys: |
             ubuntu-latest-node-
 
-      - name: Install dependencies 💚
+      - name: Install csv_to_json/ dependencies
         working-directory: csv_to_json
         run: npm install
-
-      - name: Generate statistics.json
-        working-directory: csv_to_json
-        run: npm start
 
       - name: Write CNAME file
         run: echo 'translators.prestashop-project.org' > ./public/CNAME
 
-      - name: Install website dependencies
+      - name: Install front/ dependencies
         working-directory: front
         run: npm install
 
-      - name: Generate static website files
+      - name: Generate front/ website files
         working-directory: front
         run: npm run build
+
+      - name: Generate statistics.json into public/ directory
+        working-directory: csv_to_json
+        run: npm start
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
