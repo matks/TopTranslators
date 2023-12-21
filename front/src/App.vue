@@ -37,7 +37,7 @@ import Logo from "@/components/Logo.vue";
       <div class="row">
         <div class="col-md-3 black-title">JOIN THE CROWD</div>
         <div class="col-md-4 black-title">TRANSLATOR'S GUIDE</div>
-        <div class="col-md-3 black-title">DISCOVER PRESTASHOP 1.7</div>
+        <div class="col-md-3 black-title">DISCOVER PRESTASHOP 8</div>
       </div>
       <div class="row">
         <div class="col-md-3 black-text">
@@ -49,8 +49,8 @@ import Logo from "@/components/Logo.vue";
           follow when you translate PrestaShop.
         </div>
         <div class="col-md-3 black-text">
-          Check the latest additions and the more significant improvements of
-          the 1.7 version, the next major version of PrestaShop.
+          Check the latest additions and the more significant improvements of the 8 version,
+          the current major version of PrestaShop.
         </div>
       </div>
       <div class="row">
@@ -63,14 +63,14 @@ import Logo from "@/components/Logo.vue";
         </div>
         <div class="col-md-4">
           <a
-            href="http://build.prestashop.com/assets/ext/PrestaShop_Translator_Guide.pdf"
+            href="https://build.prestashop-project.org/assets/ext/PrestaShop_Translator_Guide.pdf"
             class="btn btn-primary large-padding"
             >Download</a
           >
         </div>
         <div class="col-md-3">
           <a
-            href="https://www.prestashop.com/en/1.7"
+            href="https://www.prestashop-project.org/releases/"
             class="btn btn-primary large-padding"
             >Discover</a
           >
@@ -88,14 +88,10 @@ import Logo from "@/components/Logo.vue";
             <li class="d-inline-block"><a href="https://build.prestashop-project.org/">Blog</a></li>
             <li class="d-inline-block"><a href="https://github.com/PrestaShop/PrestaShop/">Github</a></li>
             <li class="d-inline-block"><a href="https://www.prestashop-project.org/slack/">Slack</a></li>
-            <li class="d-inline-block"><a href="https://www.prestashop-project.org/code-of-conduct/">Code of conduct</a></li>
-            <li class="d-inline-block"><a href="https://www.prestashop-project.org/maintainers-guide/">Maintainer's guide</a></li>
-            <li class="d-inline-block"><a href="https://www.prestashop-project.org/legal/">Legal notice</a></li>
           </ul>
           <ul class="list-unstyled">
             <li class="d-inline-block"><a href="https://docs.prestashop-project.org/v.8-documentation/v/english/">User documentation</a></li>
             <li class="d-inline-block"><a href="https://devdocs.prestashop-project.org/">Developer documentation</a></li>
-            <li class="d-inline-block"><a href="https://build.prestashop-project.org/prestashop-specs/">Specifications</a></li>
           </ul>
         </div>
       </div>
