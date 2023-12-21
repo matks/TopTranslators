@@ -2,40 +2,33 @@
 
 $grid-columns: 10;
 
-$brand-primary: #df0067;
-$brand-info: #23b9d6;
+$brand-primary: #000;
+$brand-info: #A4DBE8;
 
 $container-max-widths: (
   sm: rem(780px),
   md: rem(782px),
-  lg: rem(784px),
-  xl: rem(786px),
+  lg: rem(960px),
+  xl: rem(1000px),
 );
 
 @import '/node_modules/bootstrap/scss/bootstrap';
 
-@font-face {
-  font-family: 'MontserratLight';
-  src: url(resources/Montserrat-Hairline.otf);
-}
-
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: 300;
-  background: #24505b;
   color: #000;
 }
 
+#app {
+  overflow: hidden;
+}
+
+@import 'fonts';
 @import 'titles';
 @import 'header';
 @import 'footer';
 @import 'components';
-
-.main-content {
-  border-radius: 5px;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.53);
-}
 
 @import 'section_1';
 @import 'transition';

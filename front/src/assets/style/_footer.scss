@@ -1,9 +1,16 @@
 footer {
   padding-bottom: rem(95px);
 
+  hr {
+    border-color: #bababa;
+    margin: rem(30px) 0;
+  }
+
   .white-title {
     margin-top: rem(45px);
     line-height: rem(30px);
+    font-family: "Arial Black", Arial, sans-serif;
+    font-weight: 700;
   }
   .white-text {
     margin-top: rem(18px);
@@ -68,6 +75,47 @@ footer {
       }
       opacity: 0.7;
       border-top: solid 1px #ffffff;
+    }
+  }
+
+  .small {
+    font-size: .7em;
+  }
+
+  a {
+    color: #15A2C4;
+
+    &:hover {
+      color: #15A2C4;
+    }
+  }
+
+  .footer-menu {
+    .logo {
+      margin-bottom: rem(10px);
+    }
+
+    ul {
+      margin-top: rem(10px);
+
+      li {
+        padding-right: rem(30px);
+
+        a {
+          color: #000;
+          transition: color .2s ease;
+
+          &:hover {
+            color: #15A2C4;
+            text-decoration: none;
+          }
+          &:after {
+            padding-left: rem(7px);
+            font-size: rem(14px);
+            content: '►';
+          }
+        }
+      }
     }
   }
 }

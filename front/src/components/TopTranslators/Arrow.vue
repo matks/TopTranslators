@@ -11,7 +11,7 @@ defineProps<{
         <polygon points="-1 -1 -1 5 5 0 11 5 11 -1" />
       </g>
     </svg>
-    <div class="words-count text-md-center">
+    <div class="words-count text-xs-center">
       <div class="dot" />
       <div v-for="(value, i) in counts" :key="i">
         <div class="count">{{ value }}</div>

@@ -54,14 +54,16 @@ fetch('statistics.json')
 <template>
   <div v-if="data">
     <TopTranslators :data="data" />
-    <div class="row">
-      <div class="col-md-10 text-md-center transition">
-        <p class="white-title">Join our community of contributors</p>
+    <div class="row join-our-community">
+      <div class="col-md-6">
+        <div class="black-title">Join our community of contributors</div>
+      </div>
+      <div class="col-md-4 text-md-right">
         <a
-          href="https://crowdin.com/project/prestashop-official"
-          class="btn btn-primary"
-          >Translate now</a
-        >
+            href="https://crowdin.com/project/prestashop-official"
+            class="btn btn-primary">
+          Translate now
+        </a>
       </div>
     </div>
     <OnGoingTranslations :languages="data.languages" />
