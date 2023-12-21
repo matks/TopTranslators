@@ -31,8 +31,9 @@
   margin-bottom: rem(30px);
 
   .position {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial Black', Arial, sans-serif;
     font-size: rem(20px);
+    margin-bottom: rem(7px);
     color: $brand-primary;
   }
 
@@ -54,7 +55,7 @@
     }
 
     > .percent {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Arial', sans-serif;
       font-weight: 100;
       font-size: rem(22px);
       color: #191919;
@@ -78,7 +79,7 @@
     font-weight: 600;
   }
   > .percent {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: 300;
     font-size: rem(18px);
     color: #191919;
