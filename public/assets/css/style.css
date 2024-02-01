@@ -999,10 +999,14 @@ footer .small {
   width: 2.75rem;
 }
 
-.small-flag > .name,
+.small-flag > .name {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
 .full-flag > .name {
-  font-size: 0.875rem;
-  font-weight: 600;
+  font-size: 1rem;
+    font-weight: 600;
 }
 
 .small-flag > .percent,
