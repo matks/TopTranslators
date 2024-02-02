@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/view-utils.php';
+
 $currentDateTimeObject = new DateTime();
 $formattedCurrentDateTime = $currentDateTimeObject->format("F d, Y");
 
@@ -12,48 +14,69 @@ $jsonString = file_get_contents($jsonFilePath);
 // Decode JSON string as an associative array
 $data = json_decode($jsonString, true);
 $translators = $data['translators'];
+$languages = $data ['languages'];
 
-// Utilise array_map pour obtenir uniquement les valeurs 'name'
-$names = array_map(function($item) {
+
+// Comparison function for descending order sorting based on 'count'
+function compareByCount($a, $b)
+{
+    return $b['count'] - $a['count'];
+}
+
+function compareByPercent($a, $b)
+{
+    return $b['percent'] - $a['percent'];
+}
+
+
+// Sort the associative array using the comparison function
+usort($translators, 'compareByCount');
+usort($languages, 'compareByPercent');
+
+
+// Obtain the 'name' values from "translators" array 
+$names = array_map(function ($item) {
     return $item['name'];
 }, $translators);
 
-// Retire les doublons en fonction de la clé 'name'
+// Remove duplicates based on the 'name' key
 $namesUniques = array_unique($names);
 
-// Construit un nouveau tableau sans doublons en fonction de la clé 'name'
-$translatorsWithoutDuplicate = [];
-foreach ($translators as $item) {
+foreach ($translators as $index => $item) {
+    // Check if the 'name' of the current translator is in the unique names array
     if (in_array($item['name'], $namesUniques)) {
+        // Exclude the first 10 translators based on 'count'
+
+        // Add the current translator to the new array without duplicates
         $translatorsWithoutDuplicate[] = $item;
-        // Supprime la valeur pour éviter de la réajouter
+        // Remove the 'name' value to avoid adding it again
         $namesUniques = array_diff($namesUniques, [$item['name']]);
     }
 }
 
-var_dump($translatorsWithoutDuplicate);
-die;
+// construct a new array without duplicates based on the 'name' key
+$translatorsPionner = [];
+$translatorsBackpacker = [];
+$translatorsAdventurer = [];
+$translatorsExplorer = [];
+$translatorsTraveler = [];
 
-
-
-
-// Fonction de comparaison
-function comparerParCount($a, $b) {
-    return $b['count'] - $a['count'];
+foreach ($translatorsWithoutDuplicate as $key => $item) {
+    if ($key > 9) {
+        // processing the 10th value and beyond
+        if ($item['count'] > 20000) {
+            $translatorsPionner[] = $item;
+        } else if ($item['count'] > 8500) {
+            $translatorsExplorer[] = $item;
+        } else if ($item['count'] > 5000) {
+            $translatorsAdventurer[] = $item;
+        } else if ($item['count'] > 2500) {
+            $translatorsBackpacker[] = $item;
+        } else if ($item['count'] > 500) {
+            $translatorsTraveler[] = $item;
+        }
+    }
 }
-
-// Trie le tableau en fonction de la clé 'count'
-usort($translators, 'comparerParCount');
-
-// Retire les doublons en fonction de la clé 'count'
-$translatorsWithoutDuplicate = array_unique($translators, SORT_REGULAR);
-
-var_dump($translatorsWithoutDuplicate);
-die;
-
-
-
-
 
 // views
 include __DIR__ . '/../views/templates/header.php';

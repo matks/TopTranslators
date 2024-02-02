@@ -1044,9 +1044,10 @@ footer .small {
 .full-flag .progress>.value {
   height: 100%;
   background-color: #23b8d699;
-  background-image: -webkit-linear-gradient(left,rgba(35,184,214,.6),#A4DBE8);
+  /* background-image: -webkit-linear-gradient(left,rgba(35,184,214,.6),#A4DBE8); */
   background-image: linear-gradient(90deg,rgba(35,184,214,.6),#A4DBE8);
-  border-radius: .25rem
+  border-radius: .25rem;
+  width: 100%;
 }
 
 .full-flag .progress {
