@@ -33,7 +33,7 @@ streamTranslators.on('close', () => {
 streamLanguages.on('close', () => {
   console.log('Writing ...');
   fs.writeFileSync(
-    '../public/statistics.json',
+    '../front/data/statistics.json',
     JSON.stringify({ date, translators, languages }, null, 2),
     'utf-8'
   );

@@ -79,5 +79,5 @@ foreach ($translatorsWithoutDuplicate as $key => $item) {
 
 // views
 include __DIR__ . '/../views/templates/header.php';
-include __DIR__ . '/../views/generateView.php';
+include __DIR__ . '/../views/body.php';
 include __DIR__ . '/../views/templates/footer.php';

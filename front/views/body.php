@@ -185,7 +185,7 @@
                     
                     echo 
                     "<div class=\"text-md-center col-xs-3 col-md-2 small-flag\">
-                        <img src=\"/public/assets/img/flags/$flag.png\" class=\"flag\" />
+                        <img src=\"assets/img/flags/$flag.png\" class=\"flag\" />
                         <div class=\"name\">$country</div>
                         <div class=\"percent\">$percent</div>
                     </div>";
@@ -215,7 +215,7 @@
             $percent = $currentLanguage['percent'] . '%';
 
             echo
-            "<div class=\"text-md-center col-md-3 col-xl-2 full-flag\"><img src=\"/public/assets/img/flags/$flag.png\" class=\"flag\">
+            "<div class=\"text-md-center col-md-3 col-xl-2 full-flag\"><img src=\"assets/img/flags/$flag.png\" class=\"flag\">
                 <div class=\"name\">$country</div>
                 <div class=\"progress\">
                     <div class=\"value\"></div>

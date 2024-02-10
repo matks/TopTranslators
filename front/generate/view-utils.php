@@ -20,7 +20,7 @@ function renderTopTranslators($translatorsWithoutDuplicate, $i)
     if ($avatar) {
         $avatar = $avatar;
     } else {
-        $avatar = "/public/assets/img/ps-logo.png";
+        $avatar = "assets/img/ps-logo.png";
     }
 
     // Display the contributor information
@@ -33,7 +33,7 @@ function renderTopTranslators($translatorsWithoutDuplicate, $i)
             <div class=\"position\">$position</div>
             <div class=\"name d-none d-md-block\">$name</div>
             <div class=\"info d-none d-md-block\">
-                <span><a href=\"https://crowdin.com/profile/$username\">$username</a></span><img class=\"flag\" src=\"/public/assets/img/flags/$flag.png\" />$flag
+                <span><a href=\"https://crowdin.com/profile/$username\">$username</a></span><img class=\"flag\" src=\"assets/img/flags/$flag.png\" />$flag
             </div>
         </div>
         <div class=\"dots\">
@@ -61,7 +61,7 @@ function renderRestOfTranslators($translators, $i, $positionCounter)
     if ($avatar) {
         $avatar = $avatar;
     } else {
-        $avatar = "/public/assets/img/ps-logo.png";
+        $avatar = "assets/img/ps-logo.png";
     }
 
     echo
@@ -111,7 +111,7 @@ function renderLanguages($languages,$count) {
             "<div class=\"col-md-5 translation-progress\">
                 <div class=\"position\">#$position</div>
                     <div class=\"flag-line\">
-                        <img src=\"/public/assets/img/flags/$flag.png\" class=\"flag\" /><span class=\"name\">$country</span><span class=\"percent\">$percent</span>
+                        <img src=\"assets/img/flags/$flag.png\" class=\"flag\" /><span class=\"name\">$country</span><span class=\"percent\">$percent</span>
                     </div>
                     <div class=\"progress\">
                     <div class=\"value\"></div>
