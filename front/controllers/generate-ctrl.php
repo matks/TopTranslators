@@ -17,7 +17,6 @@ $translators = $data['translators'];
 $languages = $data ['languages'];
 
 
-// Comparison function for descending order sorting based on 'count'
 function compareByCount($a, $b)
 {
     return $b['count'] - $a['count'];

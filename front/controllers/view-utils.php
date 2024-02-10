@@ -23,7 +23,7 @@ function renderTopTranslators($translatorsWithoutDuplicate, $i)
         $avatar = "/public/assets/img/ps-logo.png";
     }
 
-    // Displaying the contributor information
+    // Display the contributor information
     echo
     "<div class=\"contributor top-contributor\">
         <div class=\"avatar\">
@@ -120,7 +120,4 @@ function renderLanguages($languages,$count) {
         }
     }
 }
-
-
-
 ?>

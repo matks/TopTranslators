@@ -2,31 +2,20 @@
 <html lang="en">
 
 <head>
-    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script
-        src="chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/pageScripts/dashlane-tiresias-page-script.js"
-        id="dashlane_tiresias"></script>
-    <script
-        src="chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/pageScripts/dashlane-webauthn-page-script.js"
-        id="dashlane_webauthn" name="forward_webauthn_ready"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PrestaShop Translators</title>
     <link rel="shortcut icon" href="https://www.prestashop.com/favicon.ico?v=3" />
-    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
-    <!-- STYLE CSS -->
     <link rel="stylesheet" href="/public/assets/css/style.css" />
 </head>
 
 <body>
     <div id="app">
-        <!--BEGIN HEADER-->
         <header>
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-8 ">
-                        <!-- LOGO PRESTASHOP -->
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             width="200px" x="0px" y="0px" viewBox="0 0 173 19" xml:space="preserve" class="logo">
                             <path d="M4.9,13.1h2.9c1.4,0,2.6-0.3,3.7-0.8S13.4,11,14,10s0.9-2.1,0.9-3.4S14.6,4.2,14,3.2c-0.6-1-1.4-1.7-2.5-2.3
@@ -70,12 +59,10 @@
                             s-0.3-2.4-0.9-3.4S170.7,1.5,169.6,1z M167.3,8.4c-0.5,0.4-1.1,0.7-1.9,0.7l0,0H163V4.2h2.5c0.8,0,1.4,0.2,1.9,0.7
                             c0.5,0.4,0.7,1,0.7,1.8S167.8,8,167.3,8.4z"></path>
                         </svg>
-                        <!-- TITLE -->
                         <h1 class="text-uppercase">
                             Top translation<br />
                             achievements
                         </h1>
-                        <!-- DEUX PARAGRAPHE -->
                         <p>
                             PrestaShop is a free and Open Source e-commerce web platform,
                             committed to providing the best shopping cart experience for
@@ -91,7 +78,6 @@
                             This site covers the technical aspects of PrestaShop and it's
                             tailored for theme, module and core developers.
                         </p>
-                        <!-- BUTTON CALL TO ACTION -->
                         <div>
                             <a href="https://crowdin.com/project/prestashop-official"
                                 class="cta--pattern cta"><span>Translate
@@ -106,6 +92,4 @@
                 </div>
             </div>
         </header>
-        <!-- END HEADER-->
-        <!-- BEGIN MAIN -->
         <main class="container">

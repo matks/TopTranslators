@@ -1,6 +1,4 @@
 </main>
-        <!-- END MAIN -->
-        <!-- BEGIN FOOTER -->
         <footer class="container">
             <hr />
             <div class="row">
@@ -52,7 +50,6 @@
             <hr />
             <div class="row footer-menu">
                 <div class="col-xs-10">
-                    <!-- LOGO PRESTASHOP -->
                     <a href="https://www.prestashop-project.org/" target="_blank">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             width="200px" x="0px" y="0px" viewBox="0 0 173 19" xml:space="preserve" class="logo">
@@ -129,16 +126,13 @@
                         Commons BY-SA 4.0 License.</a>
                 </div>
                 <div class="col-md-6 text-end">
-                    PrestaShop" and the PrestaShop logos are international trademarks
+                    "PrestaShop" and the PrestaShop logos are international trademarks
                     of PrestaShop SA.
                 </div>
             </div>
         </footer>
-        <!-- END FOOTER-->
     </div>
-    <!-- BOOTSTRAP JAVASCRIPT FILE-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- PERSONALIZED JAVASCRIPT FILE -->
     <script src="/public/assets/js/script.js"></script>
 </body>
 

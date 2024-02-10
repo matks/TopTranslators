@@ -1,7 +1,5 @@
-<!-- TOP TRANSLATORS -->
 <div id="top-translators" class="row main-content justify-content-center align-items-center">
     <div>
-        <!-- TITLE-->
         <div class="col-md-10">
             <h2>Top translators:</h2>
             <div class="date"> Last update: <strong><?= $formattedCurrentDateTime ?></strong></div>
@@ -58,12 +56,12 @@
         ?>
     </div>
 </div>
-<!-- TOGGLE SEE MORE / SEE LESS -->
+
 <div class="col-md-8 see-more text-center" id="top-contributors">
     <span id="more-top-contributors" class="more">See more</span>
     <span id="less-top-contributors" class="less d-none">See less</span>
 </div>
-<!-- REST OF TRANSLATORS -->
+
 <div id="rest-of-translators" class="col-md-10 d-none">
     <div class="row justify-content-center">
         <div id="all-translators">
@@ -130,13 +128,13 @@
                 </div>
             </div>
         </div>
-        <!-- TOGGLE SEE MORE / SEE LESS -->
+
         <div class="col-md-8 see-more text-center" id="top-contributors-bottom">
             <span class="more d-none" id=>See more</span><span class="less">See less</span>
         </div>
     </div>
 </div>
-<!-- JOIN COMMUNITY -->
+
 <div class="row join-our-community justify-content-center align-items-center">
     <div class="col-md-6 text-center">
         <div class="black-title">Join our community of contributors</div>
@@ -148,7 +146,7 @@
                 </svg></span></a>
     </div>
 </div>
-<!-- ONGOING TRANSLATIONS -->
+
 <div class="row main-content justify-content-center align-items-center">
     <div class="col-md-10">
         <h2 class="text-center py-5">Ongoing translations:</h2>
@@ -162,7 +160,7 @@
             ?>
         </div>
     </div>
-    <!-- TOGGLE SEE MORE / SEE LESS -->
+
     <div class="col-md-8 see-more text-center" id="translations">
         <span id="more-translations" class="more">See more</span><span id="less-translations" class="less d-none">See
             less</span>
@@ -216,7 +214,6 @@
             $flag = $currentLanguage['flag'];
             $percent = $currentLanguage['percent'] . '%';
 
-            // Display the language information using HTML structure
             echo
             "<div class=\"text-md-center col-md-3 col-xl-2 full-flag\"><img src=\"/public/assets/img/flags/$flag.png\" class=\"flag\">
                 <div class=\"name\">$country</div>
