@@ -8,7 +8,7 @@
 @font-face {
   font-family: "Prestafont-Regular";
   font-weight: 400;
-  src: url("/public/assets/fonts/Prestafont-Regular.woff2") format("woff2");
+  src: url("../fonts/Prestafont-Regular.woff2") format("woff2");
   /* Ajoutez d'autres formats de police si nécessaire (comme woff, ttf, etc.) */
 }
 
