@@ -20,7 +20,7 @@ function renderTopTranslators($translatorsWithoutDuplicate, $i)
     if ($avatar) {
         $avatar = $avatar;
     } else {
-        $avatar = "/public/assets/img/user-default-picture.webp";
+        $avatar = "/public/assets/img/ps-logo.png";
     }
 
     // Displaying the contributor information
@@ -61,7 +61,7 @@ function renderRestOfTranslators($translators, $i, $positionCounter)
     if ($avatar) {
         $avatar = $avatar;
     } else {
-        $avatar = "/public/assets/img/user-default-picture.webp";
+        $avatar = "/public/assets/img/ps-logo.png";
     }
 
     echo
